@@ -325,7 +325,7 @@ git commit -m "Classify DA price PDF links by file name"
   - `class UnmappedLog`：列は `raw_name, first_date, last_date, count, example_url`。`add(raw_name: str, date: str, url: str)`、`save()`（`count` の多い順、同数は `raw_name` 順）。
   - `class RejectedLog`：列は `date, commodity_id, value, previous, reason, source_url`。`add(...)`、`save()`（追記ではなく全体を並べ直して書く）。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 `tests/test_ledger.py`：
 
@@ -450,21 +450,21 @@ def test_unmapped_log_counts_and_dates(tmp_path):
     assert "Special,2020-11-20,2020-11-21,2,https://x/3.pdf" in p.read_text(encoding="utf-8")
 ```
 
-- [ ] **Step 2: 落ちることを確かめる**
+- [x] **Step 2: 落ちることを確かめる**
 
 Run: `pytest tests/test_ledger.py tests/test_store.py`
 Expected: FAIL（モジュールが無い）
 
-- [ ] **Step 3: `ledger.py` と `store.py` を実装する**
+- [x] **Step 3: `ledger.py` と `store.py` を実装する**
 
 読み書きは標準の `csv` モジュール（`lineterminator="\n"`）。保存は `path.with_suffix(".tmp")` に書いてから `os.replace` する。メモリ上では値を文字列で持ち、書き込むときに `fmt` を通す。
 
-- [ ] **Step 4: 通ることを確かめる**
+- [x] **Step 4: 通ることを確かめる**
 
 Run: `pytest tests/test_ledger.py tests/test_store.py`
 Expected: PASS
 
-- [ ] **Step 5: コミット**
+- [x] **Step 5: コミット**
 
 ```bash
 git add src/mmp/ledger.py src/mmp/store.py tests/test_ledger.py tests/test_store.py
