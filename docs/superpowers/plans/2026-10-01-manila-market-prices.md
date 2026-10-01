@@ -948,7 +948,7 @@ git commit -m "Import the author's Cartimar price records from Excel"
 - `series="cartimar"`：`market_daily` の `price` の単純平均。`low`・`high` は週内の最小・最大。`basis` は `"market"`。
 - `price` は小数第2位に丸める。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 ```python
 import pytest
@@ -1031,10 +1031,10 @@ def test_output_order_is_series_commodity_week():
         ("bangus", "2020-11-16"), ("tomato", "2020-11-16"), ("tomato", "2021-01-04")]
 ```
 
-- [ ] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_aggregate.py` / Expected: FAIL
-- [ ] **Step 3: `src/mmp/aggregate.py` を実装する**（CSVへ書くときは `store.fmt` を使う）
-- [ ] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_aggregate.py` / Expected: PASS
-- [ ] **Step 5: コミット**
+- [x] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_aggregate.py` / Expected: FAIL
+- [x] **Step 3: `src/mmp/aggregate.py` を実装する**（CSVへ書くときは `store.fmt` を使う）
+- [x] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_aggregate.py` / Expected: PASS
+- [x] **Step 5: コミット**
 
 ```bash
 git add src/mmp/aggregate.py tests/test_aggregate.py
