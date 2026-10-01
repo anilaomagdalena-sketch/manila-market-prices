@@ -1,0 +1,47 @@
+name: weekly
+on:
+  schedule:
+    - cron: "17 23 * * 0"   # 日曜 23:17 UTC ＝ 月曜 07:17 フィリピン時間
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ".[dev]"
+      - run: pytest
+      - id: start
+        run: echo "since=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
+      - run: python -m mmp.collect --data-dir data
+      - run: python -m mmp.aggregate --data-dir data
+      - run: python -m mmp.build_site --data-dir data --out site/data.json
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data.json
+          git diff --cached --quiet || git commit -m "Update prices ($(date -u +%Y-%m-%d))"
+          git push
+      - run: python -m mmp.check_health --data-dir data --since "${{ steps.start.outputs.since }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

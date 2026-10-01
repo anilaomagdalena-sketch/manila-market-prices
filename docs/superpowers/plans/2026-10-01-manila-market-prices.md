@@ -1439,7 +1439,7 @@ git commit -m "Add the price chart page"
 - 問題1：`status == "parsed"` のうち最新の `report_date` が、`today` の14日前より古い → `"no parsed report in the last 14 days (latest: YYYY-MM-DD)"`。`parsed` が1件も無いときも同じ扱い（`latest: none`）。
 - 問題2：`since` が渡されたとき、`fetched_at >= since` かつ `status` が `parsed` か `failed` の行のうち、`failed` が半分以上（行が2件以上あるときだけ判定）→ `"N of M newly fetched reports failed to parse"`。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 ```python
 import datetime as dt
@@ -1455,8 +1455,9 @@ def e(date, status="parsed", fetched="2026-10-05T00:10:00Z"):
             "fetched_at": fetched, "error": ""}
 
 
-def test_healthy():
-    assert check([e("2026-10-02"), e("2026-10-01", "failed")], TODAY, since="2026-10-05T00:00:00Z") == []
+def test_half_of_new_reports_failing_is_unhealthy():
+    assert check([e("2026-10-02"), e("2026-10-01", "failed")], TODAY, since="2026-10-05T00:00:00Z") == [
+        "1 of 2 newly fetched reports failed to parse"]
 
 
 def test_stale_when_latest_parsed_is_older_than_14_days():
@@ -1480,11 +1481,11 @@ def test_single_new_failure_is_not_enough():
                  TODAY, since="2026-10-05T00:00:00Z") == []
 ```
 
-- [ ] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_check_health.py` / Expected: FAIL
-- [ ] **Step 3: `src/mmp/check_health.py` を実装する**
-- [ ] **Step 4: 通ることを確かめる** — Run: `pytest` / Expected: PASS（全件）
+- [x] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_check_health.py` / Expected: FAIL
+- [x] **Step 3: `src/mmp/check_health.py` を実装する**
+- [x] **Step 4: 通ることを確かめる** — Run: `pytest` / Expected: PASS（全件）
 
-- [ ] **Step 5: `.github/workflows/weekly.yml` を書く**
+- [x] **Step 5: `.github/workflows/weekly.yml` を書く**
 
 ```yaml
 name: weekly
@@ -1538,7 +1539,7 @@ jobs:
 
 `check_health` はコミットの後、デプロイの前に置く。異常のときは、取れたデータは残しつつ、公開中のページは前のまま、実行は失敗になる（GitHubから著者にメールが届く）。
 
-- [ ] **Step 6: `.github/workflows/backfill.yml` を書く**
+- [x] **Step 6: `.github/workflows/backfill.yml` を書く**
 
 ```yaml
 name: backfill
@@ -1583,7 +1584,7 @@ jobs:
           git push
 ```
 
-- [ ] **Step 7: コミット**
+- [x] **Step 7: コミット**
 
 ```bash
 git add src/mmp/check_health.py tests/test_check_health.py .github/workflows

@@ -1,0 +1,40 @@
+name: backfill
+on:
+  workflow_dispatch:
+    inputs:
+      max_new:
+        description: "今回取り込むPDFの上限"
+        default: "400"
+      retry_failed:
+        description: "失敗分をやり直す (true/false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+      - run: >
+          python -m mmp.collect --data-dir data --max-new "${{ inputs.max_new }}"
+          ${{ inputs.retry_failed == 'true' && '--retry-failed' || '' }}
+      - run: python -m mmp.aggregate --data-dir data
+      - name: Commit data
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Backfill prices"
+          git push
