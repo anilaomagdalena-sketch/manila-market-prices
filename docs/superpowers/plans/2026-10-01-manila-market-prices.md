@@ -1237,7 +1237,7 @@ git commit -m "Build site data.json from weekly series and own records"
   - 「出典：フィリピン農業省 DA-AMAS Bantay Presyo ／ 最終更新 2026年10月5日（データは10月2日分まで）」。出典名は `https://www.da.gov.ph/price-monitoring/` へのリンク（`target="_blank" rel="noopener"`）。
 - 色の組み合わせは白背景で文字・線ともコントラスト比3:1以上を保つ。上の3色はその条件を満たすものとして選んである。変える場合は条件を確かめること。
 
-- [ ] **Step 1: Chart.jsを同梱する**
+- [x] **Step 1: Chart.jsを同梱する**
 
 ```bash
 mkdir -p site/vendor
@@ -1245,7 +1245,7 @@ curl -L -o site/vendor/chart.umd.min.js https://cdn.jsdelivr.net/npm/chart.js@4.
 head -c 200 site/vendor/chart.umd.min.js   # "Chart.js v4.4.4" と書いてあること
 ```
 
-- [ ] **Step 2: テスト用のデータを書く**
+- [x] **Step 2: テスト用のデータを書く**
 
 `tests/e2e/data.sample.json`（1行でよい。読みやすさのため整形して示す）：
 
@@ -1272,7 +1272,7 @@ head -c 200 site/vendor/chart.umd.min.js   # "Chart.js v4.4.4" と書いてあ�
 }
 ```
 
-- [ ] **Step 3: 落ちるテストを書く**
+- [x] **Step 3: 落ちるテストを書く**
 
 `tests/e2e/test_site.py`（`pytest tests/e2e` で実行する。`pytest-playwright` の `page` フィクスチャを使う）：
 
@@ -1386,7 +1386,7 @@ def test_empty_categories_are_not_shown_and_height_is_stable(page, site_url, err
 
 テストは、グラフを描き終えるたびに `#chart` に `data-ready="1"` が付くことを前提にしている（描き直しの前に外し、終わったら付ける）。高さが変わらないようにするため、注記の欄と数値の欄は、出す行が少ないときも同じ高さを確保する（`min-height`）。
 
-- [ ] **Step 4: 落ちることを確かめる**
+- [x] **Step 4: 落ちることを確かめる**
 
 ```bash
 playwright install chromium
@@ -1395,16 +1395,16 @@ pytest tests/e2e
 
 Expected: FAIL（`site/index.html` が無い）
 
-- [ ] **Step 5: `site/index.html`、`site/app.js`、`site/style.css` を実装する**
+- [x] **Step 5: `site/index.html`、`site/app.js`、`site/style.css` を実装する**
 
 フレームワークは使わない。`app.js` は1ファイル、300行前後を目安にする。「データの読み込みと選択状態」「系列の組み立て（期間の絞り込み、欠けた週への `null` の挿入）」「数値の欄」「描画」を関数に分ける。
 
-- [ ] **Step 6: 通ることを確かめる**
+- [x] **Step 6: 通ることを確かめる**
 
 Run: `pytest tests/e2e`
 Expected: PASS（7件）
 
-- [ ] **Step 7: 目で確かめる**
+- [x] **Step 7: 目で確かめる**
 
 ```bash
 cp tests/e2e/data.sample.json site/data.json
@@ -1413,7 +1413,7 @@ python -m http.server -d site 8000
 
 ブラウザの幅を360pxにして `http://localhost:8000/` を開き、次を確かめる：破線と実線の切り替わり、帯、ひし形の点、凡例、触れたときの表示、期間ボタン。確かめたら `site/data.json` は消す（Task 10で本物を作る）。
 
-- [ ] **Step 8: コミット**
+- [x] **Step 8: コミット**
 
 ```bash
 git add site/index.html site/app.js site/style.css site/vendor tests/e2e
