@@ -201,7 +201,7 @@ git add -A && git commit -m "Set up package skeleton and adopt verified parser p
 - `report_date` は、ファイル名の中の「月名-日-年」から読む。月名は先頭3文字で判定する（`Novermber` → 11月、`Sept` → 9月）。読めなければ `None`。
 - `uploads/YYYY/MM/` はアップロード月なので、日付の判定に使わない。
 
-- [ ] **Step 1: 見本HTMLを書く**
+- [x] **Step 1: 見本HTMLを書く**
 
 `tests/fixtures/index_sample.html`：
 
@@ -217,7 +217,7 @@ git add -A && git commit -m "Set up package skeleton and adopt verified parser p
 </body></html>
 ```
 
-- [ ] **Step 2: 落ちるテストを書く**
+- [x] **Step 2: 落ちるテストを書く**
 
 `tests/test_links.py`：
 
@@ -275,21 +275,21 @@ def test_extract_links_dedupes_and_keeps_only_pdfs():
     assert links[4].url.startswith("https://")
 ```
 
-- [ ] **Step 3: 落ちることを確かめる**
+- [x] **Step 3: 落ちることを確かめる**
 
 Run: `pytest tests/test_links.py`
 Expected: FAIL（`ModuleNotFoundError: No module named 'mmp.links'`）
 
-- [ ] **Step 4: `src/mmp/links.py` を実装する**
+- [x] **Step 4: `src/mmp/links.py` を実装する**
 
 リンクの抽出は正規表現 `href="([^"]+\.pdf)"`（大文字小文字を区別しない）で足りる。HTMLパーサーは入れない。
 
-- [ ] **Step 5: 通ることを確かめる**
+- [x] **Step 5: 通ることを確かめる**
 
 Run: `pytest tests/test_links.py`
 Expected: PASS（全件）
 
-- [ ] **Step 6: コミット**
+- [x] **Step 6: コミット**
 
 ```bash
 git add src/mmp/links.py tests/test_links.py tests/fixtures/index_sample.html
