@@ -111,7 +111,7 @@ docs/                 設計書、計画書、参考資料（既存）
   - `market_rows` の各要素：`{"market": str, "raw_name": str, "low": float, "high": float, "price": float}`
   - `mmp.names.NameMap(path: Path)`、`NameMap.lookup(raw_name: str, spec: str = "") -> str | None`
 
-- [ ] **Step 1: `pyproject.toml` を書く**
+- [x] **Step 1: `pyproject.toml` を書く**
 
 ```toml
 [build-system]
@@ -135,7 +135,7 @@ testpaths = ["tests"]
 addopts = "-q --ignore=tests/e2e"
 ```
 
-- [ ] **Step 2: `.gitignore` を書く**
+- [x] **Step 2: `.gitignore` を書く**
 
 ```
 .cache/
@@ -146,7 +146,7 @@ __pycache__/
 test-results/
 ```
 
-- [ ] **Step 3: 試作を `git mv` で移す**
+- [x] **Step 3: 試作を `git mv` で移す**
 
 ```bash
 mkdir -p src tools data
@@ -158,7 +158,7 @@ git mv docs/reference/parser-prototype/dump_fixture.py tools/dump_fixture.py
 
 `tests/test_names.py` は `Path(__file__).parent.parent / "data" / "commodities.csv"` を読むので、移したあともそのまま動く。
 
-- [ ] **Step 4: 環境を作り、テストが通ることを確かめる**
+- [x] **Step 4: 環境を作り、テストが通ることを確かめる**
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
@@ -168,7 +168,7 @@ pytest
 
 Expected: `28 passed`
 
-- [ ] **Step 5: コミット**
+- [x] **Step 5: コミット**
 
 ```bash
 git add -A && git commit -m "Set up package skeleton and adopt verified parser prototype"
