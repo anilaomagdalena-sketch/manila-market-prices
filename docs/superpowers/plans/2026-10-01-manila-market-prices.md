@@ -516,7 +516,7 @@ git commit -m "Add ledger and CSV stores with deterministic output"
 6. `checkpoint_every` 本ごと、および最後に、**データ → ログ → 台帳の順**で保存する。台帳を最後に書くことで、途中で落ちても「台帳にあるのにデータに無い」状態にならない（データにあって台帳に無いPDFは、次回もう一度処理されて同じ結果になる）。
 7. `main` は `Stats` を1行で表示し、0を返す。`FetchError`（一覧が取れない）のときは1を返す。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 `tests/test_collect.py`。実物のPDFは使わず、`fetch` と `parse` を差し替える。
 
@@ -806,21 +806,21 @@ def test_cache_is_used_on_retry(world, tmp_path):
     assert url not in world.fetched
 ```
 
-- [ ] **Step 2: 落ちることを確かめる**
+- [x] **Step 2: 落ちることを確かめる**
 
 Run: `pytest tests/test_collect.py`
 Expected: FAIL（`mmp.collect` が無い）
 
-- [ ] **Step 3: `src/mmp/collect.py` を実装する**
+- [x] **Step 3: `src/mmp/collect.py` を実装する**
 
 上の「ふるまい」1〜7のとおり。`run` は200行を超えそうなら、「候補の決定」「1本の処理」「保存の優先順位」を関数に分ける。
 
-- [ ] **Step 4: 通ることを確かめる**
+- [x] **Step 4: 通ることを確かめる**
 
 Run: `pytest`
 Expected: PASS（全件）
 
-- [ ] **Step 5: 実物で1本だけ試す**
+- [x] **Step 5: 実物で1本だけ試す**
 
 ```bash
 python -m mmp.collect --data-dir data --max-new 3 --cache-dir .cache/pdf
@@ -829,7 +829,7 @@ head -5 data/daily.csv && grep -c parsed data/sources.csv
 
 Expected: `data/daily.csv` に2020年11月初めの行が入り、台帳に `parsed` が3行ある。`skipped` は1,000行あまり（対象外と開始日前）。3本より多くDAへ取りに行っていないこと。
 
-- [ ] **Step 6: コミット**
+- [x] **Step 6: コミット**
 
 `data/*.csv` はまだコミットしない（Task 10でまとめて入れる）。試した結果は `git checkout data/ 2>/dev/null; git clean -fd data/` で消してから：
 
