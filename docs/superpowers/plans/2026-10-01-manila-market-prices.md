@@ -1085,7 +1085,7 @@ git commit -m "Aggregate daily prices into weekly series"
 - `updated` は実行日（`main` ではフィリピン時間の今日）、`latest_report` は台帳の `parsed` のうち最新の `report_date`。
 - JSONは `ensure_ascii=False`、区切りは `(",", ":")`、末尾に改行。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 ```python
 from mmp.build_site import build
@@ -1180,10 +1180,10 @@ def test_unmatched_own_items_become_standalone_items_at_the_end():
     assert item(data, "own:パセリ")["category"] == "vegetable"
 ```
 
-- [ ] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_build_site.py` / Expected: FAIL
-- [ ] **Step 3: `src/mmp/build_site.py` を実装する**
-- [ ] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_build_site.py` / Expected: PASS
-- [ ] **Step 5: コミット**
+- [x] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_build_site.py` / Expected: FAIL
+- [x] **Step 3: `src/mmp/build_site.py` を実装する**
+- [x] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_build_site.py` / Expected: PASS
+- [x] **Step 5: コミット**
 
 ```bash
 git add src/mmp/build_site.py tests/test_build_site.py
