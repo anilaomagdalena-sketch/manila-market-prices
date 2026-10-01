@@ -1,0 +1,128 @@
+date,sheet,item_ja,name_tl,name_en,price,market
+2021-01-29,野菜,かぼちゃ,,,100,Cartimar
+2021-02-18,野菜,アスパラガス,,,350,Cartimar
+2021-03-10,野菜,オクラ,,,65,Cartimar
+2020-12-22,野菜,カラマンシー,,,90,Cartimar
+2021-01-29,野菜,カラマンシー,,,80,Cartimar
+2021-04-08,野菜,カラマンシー,,,100,Cartimar
+2020-11-20,野菜,キャベツ,Repolyo,Cabbage,100,Cartimar
+2020-12-10,野菜,キャベツ,Repolyo,Cabbage,120,Cartimar
+2020-12-20,野菜,キャベツ,Repolyo,Cabbage,130,Cartimar
+2020-12-22,野菜,キャベツ,Repolyo,Cabbage,130,Cartimar
+2021-01-29,野菜,キャベツ,Repolyo,Cabbage,90,Cartimar
+2021-02-09,野菜,キャベツ,Repolyo,Cabbage,150,Cartimar
+2021-02-18,野菜,キャベツ,Repolyo,Cabbage,120,Cartimar
+2021-03-10,野菜,キャベツ,Repolyo,Cabbage,120,Cartimar
+2021-05-19,野菜,キャベツ,Repolyo,Cabbage,35,Cartimar
+2021-04-08,野菜,キャベツ紫,,,100,Cartimar
+2020-12-10,野菜,キュウリ,,,90,Cartimar
+2020-12-22,野菜,キュウリ,,,80,Cartimar
+2021-02-09,野菜,キュウリ,,,70,Cartimar
+2021-03-10,野菜,キュウリ,,,60,Cartimar
+2021-03-18,野菜,キュウリ,,,80,Cartimar
+2021-04-08,野菜,キュウリ,,,60,Cartimar
+2021-05-19,野菜,キュウリ,,,100,Cartimar
+2024-02-29,野菜,キュウリ,,,120,Cartimar
+2021-03-10,野菜,キュウリローカル,,,45,Cartimar
+2021-04-08,野菜,キュウリローカル,,,50,Cartimar
+2021-03-10,野菜,サツマイモ,,,50,Cartimar
+2021-01-29,野菜,サトイモ,,,220,Cartimar
+2020-12-20,野菜,サヤインゲン,Baguio beens,abitsuwelas,130,Cartimar
+2020-12-22,野菜,サヤインゲン,Baguio beens,abitsuwelas,100,Cartimar
+2020-11-20,野菜,シイタケ,Shitake,Shitake,350,Cartimar
+2021-01-14,野菜,シイタケ,Shitake,Shitake,75,Cartimar
+2021-02-25,野菜,シイタケ,Shitake,Shitake,80,Cartimar
+2020-12-22,野菜,ショウガ,,,150,Cartimar
+2021-01-21,野菜,ショウガ,,,150,Cartimar
+2021-03-04,野菜,ショウガ,,,170,Cartimar
+2021-03-10,野菜,ショウガ,,,140,Cartimar
+2021-04-08,野菜,ショウガ,,,150,Cartimar
+2024-05-23,野菜,ショウガ,,,240,Cartimar
+2020-12-10,野菜,ジャガイモ,,,100,Cartimar
+2021-01-21,野菜,ジャガイモ,,,140,Cartimar
+2021-01-29,野菜,ジャガイモ,,,130,Cartimar
+2021-02-25,野菜,ジャガイモ,,,90,Cartimar
+2021-03-04,野菜,ジャガイモ,,,80,Cartimar
+2021-03-10,野菜,ジャガイモ,,,55,Cartimar
+2021-04-08,野菜,ジャガイモ,,,45,Cartimar
+2022-05-19,野菜,ジャガイモ,,,80,Cartimar
+2024-02-29,野菜,ジャガイモ,,,150,Cartimar
+2024-05-23,野菜,ジャガイモ,,,120,Cartimar
+2020-12-22,野菜,ズッキーニ,,,160,Cartimar
+2021-03-10,野菜,ズッキーニ,,,45,Cartimar
+2021-04-08,野菜,ズッキーニ,,,40,Cartimar
+2024-05-23,野菜,セロリ,,,120,Cartimar
+2020-11-20,野菜,タマネギ白,Sibuyas,Onion white,70,Cartimar
+2020-12-20,野菜,タマネギ白,Sibuyas,Onion white,70,Cartimar
+2021-01-21,野菜,タマネギ白,Sibuyas,Onion white,80,Cartimar
+2021-02-25,野菜,タマネギ白,Sibuyas,Onion white,70,Cartimar
+2021-03-10,野菜,タマネギ白,Sibuyas,Onion white,80,Cartimar
+2021-03-18,野菜,タマネギ白,Sibuyas,Onion white,80,Cartimar
+2021-05-19,野菜,タマネギ白,Sibuyas,Onion white,70,Cartimar
+2022-05-19,野菜,タマネギ白,Sibuyas,Onion white,90,Cartimar
+2024-02-29,野菜,タマネギ白,Sibuyas,Onion white,120,Cartimar
+2020-12-22,野菜,タマネギ赤,,,80,Cartimar
+2020-12-22,野菜,チンゲンサイ,,,120,Cartimar
+2021-01-29,野菜,チンゲンサイ,,,80,Cartimar
+2021-04-08,野菜,トマトチェリー,,,60,Cartimar
+2021-03-10,野菜,トマトバギオ,,,120,Cartimar
+2024-02-29,野菜,トマトバギオ,,,250,Cartimar
+2021-01-29,野菜,トマトローカル,,,100,Cartimar
+2021-03-10,野菜,トマトローカル,,,45,Cartimar
+2021-04-08,野菜,トマトローカル,,,40,Cartimar
+2021-05-19,野菜,トマトローカル,,,50,Cartimar
+2021-04-08,野菜,ナス　ローカル,,,100,Cartimar
+2020-12-10,野菜,ニンジン,,,120,Cartimar
+2020-12-22,野菜,ニンジン,,,90,Cartimar
+2021-01-21,野菜,ニンジン,,,120,Cartimar
+2021-01-29,野菜,ニンジン,,,120,Cartimar
+2021-03-10,野菜,ニンジン,,,80,Cartimar
+2021-04-08,野菜,ニンジン,,,60,Cartimar
+2020-12-10,野菜,ニンニク,Bawan,garlic,120,Cartimar
+2020-12-22,野菜,ニンニク,Bawan,garlic,110,Cartimar
+2021-03-18,野菜,ニンニク,Bawan,garlic,120,Cartimar
+2022-05-19,野菜,ニンニク,Bawan,garlic,120,Cartimar
+2021-01-21,野菜,ニンニク剥き,,,100,Cartimar
+2021-02-25,野菜,ニンニク剥き,,,120,Cartimar
+2021-01-21,野菜,ネギ,,,300,Cartimar
+2021-01-29,野菜,ネギ,,,250,Cartimar
+2021-02-18,野菜,ネギ,,,250,Cartimar
+2021-02-25,野菜,ネギ,,,220,Cartimar
+2021-03-10,野菜,ネギ,,,200,Cartimar
+2022-05-19,野菜,ネギ,,,70,Cartimar
+2021-01-21,野菜,ハヤトウリ,,,40,Cartimar
+2021-01-14,野菜,パセリ,,,400,Cartimar
+2021-01-21,野菜,パセリ,,,400,Cartimar
+2021-02-18,野菜,パセリ,,,300,Cartimar
+2021-02-25,野菜,パセリ,,,300,Cartimar
+2021-03-04,野菜,ヒカマ,,,40,Cartimar
+2024-05-23,野菜,ビーツ,,,100,Cartimar
+2021-03-18,野菜,ブロッコリー,,,220,Cartimar
+2021-04-08,野菜,ブロッコリー,,,280,Cartimar
+2021-01-29,野菜,ベルペッパー緑,,,200,Cartimar
+2021-03-10,野菜,ベルペッパー緑,,,260,Cartimar
+2021-01-29,野菜,ベルペッパー赤,,,300,Cartimar
+2021-03-10,野菜,ベルペッパー赤,,,380,Cartimar
+2021-04-08,野菜,ベルペッパー黄,,,280,Cartimar
+2021-01-21,野菜,ホウレンソウ,,,100,Cartimar
+2022-05-19,野菜,ホウレンソウバギオ,,,170,Cartimar
+2022-05-19,野菜,ミント,,,240,Cartimar
+2021-01-21,野菜,ヤングコーン,,,18,Cartimar
+2021-03-10,野菜,レタス（アイスバーグ）,,,55,Cartimar
+2022-05-19,野菜,レタス（アイスバーグ）,,,130,Cartimar
+2024-02-29,野菜,レタス（アイスバーグ）,,,80,Cartimar
+2021-01-29,野菜,レタス（グリーンアイス）,,,80,Cartimar
+2024-02-29,野菜,レタス（グリーンアイス）,,,170,Cartimar
+2021-01-29,野菜,小ねぎ,,,100,Cartimar
+2021-03-04,野菜,小ねぎ,,,150,Cartimar
+2021-03-18,野菜,小ねぎ,,,90,Cartimar
+2021-05-19,野菜,小ねぎ,,,100,Cartimar
+2021-03-10,野菜,長いんげん,,,33,Cartimar
+2021-01-21,野菜,長とうがらし,,,180,Cartimar
+2021-04-08,野菜,長とうがらし,,,55,Cartimar
+2020-12-22,魚介,アオリイカ,Lumot,,400,Cartimar
+2020-12-22,魚介,アサリ,Halaan,,200,Cartimar
+2020-12-22,魚介,カラス貝,Tahong,,150,Cartimar
+2021-01-14,魚介,カラス貝,Tahong,,145,Cartimar
+2020-12-22,魚介,シイラフィレ,Dolado filet,,420,Cartimar
+2020-12-22,魚介,メアジ,Matan baka,,300,Cartimar

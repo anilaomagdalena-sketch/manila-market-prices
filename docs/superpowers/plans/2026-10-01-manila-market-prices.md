@@ -860,7 +860,7 @@ git commit -m "Collect new DA price PDFs incrementally with a fetch ledger"
 - 数値でないセルと空のセルは飛ばす。和名が空の行は飛ばす。
 - 設計書5.4節の `commodity_id` 列は持たない（1つの和名が複数の品目に対応することがあるため。対応は `commodities.csv` の `own_items` で引く）。
 
-- [ ] **Step 1: 落ちるテストを書く**
+- [x] **Step 1: 落ちるテストを書く**
 
 ```python
 from pathlib import Path
@@ -915,10 +915,10 @@ def test_main_writes_sorted_csv(tmp_path):
     assert lines[1].split(",")[1] == "野菜" and lines[-1].split(",")[1] == "魚介"
 ```
 
-- [ ] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_import_own.py` / Expected: FAIL
-- [ ] **Step 3: `src/mmp/import_own.py` を実装する**（`openpyxl.load_workbook(path, data_only=True)`）
-- [ ] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_import_own.py` / Expected: PASS
-- [ ] **Step 5: `data/own.csv` を作ってコミット**
+- [x] **Step 2: 落ちることを確かめる** — Run: `pytest tests/test_import_own.py` / Expected: FAIL
+- [x] **Step 3: `src/mmp/import_own.py` を実装する**（`openpyxl.load_workbook(path, data_only=True)`）
+- [x] **Step 4: 通ることを確かめる** — Run: `pytest tests/test_import_own.py` / Expected: PASS
+- [x] **Step 5: `data/own.csv` を作ってコミット**
 
 ```bash
 python -m mmp.import_own docs/reference/own-cartimar-prices-2020-2024.xlsx --out data/own.csv
