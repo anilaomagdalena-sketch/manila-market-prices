@@ -1,0 +1,55 @@
+commodity_id,category,name_ja,name_tl,name_en,aliases,own_items,display,order
+ampalaya,vegetable,ゴーヤ（アンパラヤ）,Ampalaya,Bitter gourd,Ampalaya|Bittergourd Ampalaya|Bittergourd (Ampalaya)|Bitter Gourd (Ampalaya),,1,10
+eggplant,vegetable,ナス,Talong,Eggplant,Eggplant|Eggplant Talong|Eggplant (Talong),ナス　ローカル,1,20
+tomato,vegetable,トマト,Kamatis,Tomato,Tomato|Tomato Kamatis|Tomato (Kamatis),トマトローカル,1,30
+squash,vegetable,かぼちゃ,Kalabasa,Squash,Squash|Squash Kalabasa|Squash (Kalabasa),かぼちゃ,1,40
+sitao,vegetable,長いんげん（シタウ）,Sitaw,String beans,Sitao|String Beans Sitao|String Beans (Sitao)|Pole Sitao,長いんげん,1,50
+pechay_native,vegetable,ペチャイ（在来種）,Pechay Tagalog,Native pechay,Pechay (Native)|Pechay Tagalog|Native Pechay,,1,60
+chili_green,vegetable,長とうがらし（青）,Siling haba,Green chili,"Chili (Green)|Chilli (Green), Local",長とうがらし,1,70
+cabbage,vegetable,キャベツ,Repolyo,Cabbage,Cabbage|Cabbage Repolyo|Cabbage (Repolyo),キャベツ,1,100
+cabbage_scorpio,vegetable,キャベツ（スコーピオ種）,Repolyo,Cabbage (Scorpio),"Cabbage (Scorpio)|Scorpio|Cabbage Repolyo (Scorpio)|Cabbage (Scorpio), Local",キャベツ,1,101
+cabbage_rareball,vegetable,キャベツ（レアボール種）,Repolyo,Cabbage (Rare Ball),"Rare Ball|Cabbage Repolyo (Rare Ball)|Cabbage (Rare Ball)|Cabbage (Rareball)|Cabbage (Rare Ball), Local",,1,102
+cabbage_wonderball,vegetable,キャベツ（ワンダーボール種）,Repolyo,Cabbage (Wonder Ball),"Wonder Ball|Cabbage Repolyo (Wonder Ball)|Cabbage (Wonder Ball)|Cabbage (Wonderball)|Cabbage (Wonder Ball), Local",,1,103
+carrot,vegetable,ニンジン,Karot,Carrot,"Carrots|Carrot Karot|Carrot (Karot)|Carrots (Local)|Carrots, Local",ニンジン,1,110
+chayote,vegetable,ハヤトウリ,Sayote,Chayote,Chayote|Chayote Sayote|Chayote (Sayote),ハヤトウリ,1,120
+baguio_beans,vegetable,サヤインゲン,Habitsuwelas,Baguio beans,"Habitchuelas (Baguio beans)|Baguio Beans Habitchuelas|Baguio Beans (Habitchuelas)|Habichuelas/Baguio Beans, Local",サヤインゲン,1,130
+pechay_baguio,vegetable,白菜（ペチャイバギオ）,Pechay Baguio,Chinese cabbage,Pechay (Baguio)|Pechay Baguio,,1,140
+potato,vegetable,ジャガイモ,Patatas,Potato,"White Potato|White Potato Patatas|White Potato (Patatas)|Potato (Patatas)|White Potato (Local)|White Potato, Local",ジャガイモ,1,150
+bell_pepper_green,vegetable,ピーマン（緑）,,Bell pepper (green),"Bell Pepper (Green)|Bell Pepper (Green), Local",ベルペッパー緑,1,160
+bell_pepper_red,vegetable,パプリカ（赤）,,Bell pepper (red),"Bell Pepper (Red)|Bell Pepper (Red), Local",ベルペッパー赤,1,161
+broccoli,vegetable,ブロッコリー,,Broccoli,"Broccoli|Broccoli, Local",ブロッコリー,1,170
+cauliflower,vegetable,カリフラワー,,Cauliflower,"Cauliflower|Cauliflower, Local",,1,180
+celery,vegetable,セロリ,,Celery,Celery,セロリ,1,190
+lettuce_green_ice,vegetable,レタス（グリーンアイス）,,Lettuce (Green Ice),Lettuce (Green Ice),レタス（グリーンアイス）,1,200
+lettuce_iceberg,vegetable,レタス（アイスバーグ）,,Lettuce (Iceberg),Lettuce (Iceberg),レタス（アイスバーグ）,1,201
+lettuce_romaine,vegetable,ロメインレタス,,Lettuce (Romaine),Lettuce (Romaine),,1,202
+chili_labuyo,spice,唐辛子（ラブヨ）,Siling labuyo,Bird's eye chili,Chili (Labuyo)|Chilli (Labuyo)|Chili Siling labuyo|Chili (Siling labuyo),,1,300
+chili_red,spice,赤とうがらし,Siling pula,Red chili,"Red Chili (Local)|Chilli (Red), Local",,1,301
+garlic_local,spice,ニンニク（国産）,Bawang,Garlic (local),"Garlic (Native)|Local Garlic Bawang|Local Garlic (Bawang)|Garlic, Native/Local",,1,310
+garlic_imported,spice,ニンニク（輸入）,Bawang,Garlic (imported),"Garlic (Imported)|Imported Garlic Bawang|Imported Garlic (Bawang)|Garlic, Imported",ニンニク,1,311
+ginger,spice,ショウガ,Luya,Ginger,"Ginger|Ginger Luya|Ginger (Luya)|Ginger, Local",ショウガ,1,320
+red_onion_local,spice,赤タマネギ（国産）,Sibuyas na pula,Red onion (local),"Red Onion|Local Red Onion Sibuyas|Local Red Onion Pulang Sibuyas|Local Red Onion (Pulang Sibuyas)|Red Onion (Local)|Red Onion (Sibuyas)|Red Onion, Local",タマネギ赤,1,330
+red_onion_imported,spice,赤タマネギ（輸入）,Sibuyas na pula,Red onion (imported),"Red Onion (Imported)|Imported Red Onion Sibuyas|Imported Red Onion (Medium size)|Imported Red Onion (Big size)|Red Onion, Imported",,1,331
+white_onion_local,spice,白タマネギ（国産）,Sibuyas na puti,White onion (local),"White Onion|Local White Onion Sibuyas|Local White Onion Puting Sibuyas|Local White Onion (Puting Sibuyas)|White Onion (Local)|White Onion, Local",タマネギ白,1,340
+white_onion_imported,spice,白タマネギ（輸入）,Sibuyas na puti,White onion (imported),"White Onion (Imported)|Imported White Onion Sibuyas|Imported White Onion (Medium size)|Imported White Onion (Big size)|White Onion, Imported",,1,341
+calamansi,fruit,カラマンシー,Kalamansi,Calamansi,Calamansi,カラマンシー,1,400
+banana_lakatan,fruit,バナナ（ラカタン）,Saging,Banana (Lakatan),Banana (Lakatan),,1,410
+banana_latundan,fruit,バナナ（ラトゥンダン）,Saging,Banana (Latundan),Banana (Latundan),,1,411
+banana_saba,fruit,バナナ（サバ）,Saging na saba,Banana (Saba),Banana (Saba),,1,412
+papaya,fruit,パパイヤ,Papaya,Papaya,Papaya,,1,420
+mango_carabao,fruit,マンゴー（カラバオ）,Mangga,Mango (Carabao),Mango (Carabao),マンゴー,1,430
+avocado,fruit,アボカド,Abokado,Avocado,Avocado,,1,440
+melon,fruit,メロン,Melon,Melon,Melon,,1,450
+pomelo,fruit,ポメロ,Suha,Pomelo,Pomelo,,1,460
+watermelon,fruit,スイカ,Pakwan,Watermelon,Watermelon,,1,470
+bangus,fish,バンゴス（ミルクフィッシュ）,Bangus,Milkfish,"Bangus|Milkfish Bangus|Milkfish (Bangus)|Bangus, Medium|Bangus [Medium (3-4pcs/kg)]",,1,500
+bangus_large,fish,バンゴス（大）,Bangus,Milkfish (large),"Bangus, Large|Bangus [Large]",,0,501
+tilapia,fish,ティラピア,Tilapia,Tilapia,Tilapia|Fish (Tilapia),,1,510
+galunggong_local,fish,ガルンゴン（国産）,Galunggong,Round scad (local),"Galunggong (Local)|Local Round Scad Galunggong|Local Round Scad (Galunggong)|Galunggong, Local|Galunggong|Round Scad (Galunggong)",,1,520
+galunggong_imported,fish,ガルンゴン（輸入）,Galunggong,Round scad (imported),"Galunggong (Imported)|Imported Round Scad Galunggong|Imported Round Scad (Galunggong)|Galunggong, Imported",,1,521
+alumahan,fish,アルマハン（グルクマ）,Alumahan,Indian mackerel,Alumahan|Indian mackerel Alumahan|Indian mackerel (Alumahan)|Alumahan (Indian Mackerel),,1,530
+squid,fish,イカ（プシット）,Pusit,Squid,"Squid|Squid (Pusit Bisaya)|Squid (Pusit Bisaya), Local",,1,540
+tambakol,fish,キハダマグロ（タンバコル）,Tambakol,Yellowfin tuna,"Yellow-Fin Tuna (Tambakol)|Tambakol (Yellow-Fin Tuna), Local",,1,550
+sardines,fish,イワシ（タンバン）,Tamban,Sardines,Sardines (Tamban),,1,560
+salmon_head,fish,サーモンの頭,,Salmon head,Salmon Head,,1,570
+bonito,fish,ボニート（ソウダガツオ類）,Tulingan,Bonito,Bonito|Bonito (Frigate Tuna),,1,580
