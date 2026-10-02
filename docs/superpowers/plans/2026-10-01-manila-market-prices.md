@@ -1670,7 +1670,7 @@ git add data site/data.json docs/backfill-report.md src tests
 git commit -m "Backfill prices from November 2020 and add the audit report"
 ```
 
-- [ ] **Step 6: 実物のデータで画面を見る**
+- [x] **Step 6: 実物のデータで画面を見る**
 
 `python -m http.server -d site 8000` で開き、トマト、キャベツ（スコーピオ種）、赤タマネギ（国産）、バンゴス、パセリ（実測のみ）を、幅360pxと1024pxで見る。おかしな段差や飛び値があれば報告書に書く。
 
@@ -1685,7 +1685,7 @@ git commit -m "Backfill prices from November 2020 and add the audit report"
 
 リポジトリの Settings → Pages → Build and deployment → Source を「GitHub Actions」にする。`weekly` を手動実行し、表示されたURL（`https://<owner>.github.io/manila-market-prices/`）を開いて確かめる。
 
-- [ ] **Step 2: `README.md` を書く**（日本語）
+- [x] **Step 2: `README.md` を書く**（日本語）
 
 次の内容を入れる。
 
