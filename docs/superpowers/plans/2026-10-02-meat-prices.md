@@ -67,5 +67,5 @@
 - [x] **Step 6: 集計と点検を行う。** `python -m mmp.aggregate --data-dir data` と `python -m mmp.build_site --data-dir data --out site/data.json` を実行する。5品目の初日・最終日・週数・最大空白・除外件数・カルティマール行数を集計し、2020年・2022年・2025年・2026年の代表値を保存済みPDFと照合する。異常な段差や同日複数行の衝突があれば著者に報告して判断を待つ。点検結果と新しい件数を `docs/backfill-report.md` に追記する。
 - [x] **Step 7: 公開前の確認をする。** `python -m pytest -q`、`python -m pytest -o addopts='' tests/e2e/test_site.py -q` を実行する。`site/data.json` に5品目の価格系列があり、既存の品目も残ることを確認する。PDFがGitの追加対象に入っていないことを確認する。
 - [x] **Step 8: コミットする。** 変更したデータ・テスト・報告書だけを `git add` し、`git commit -m "Backfill and audit meat prices"`。`git status` でPDFが追跡されていないことを再確認する。
-- [ ] **Step 9: 公開する。** `site/data.json` の5品目が空でなく、READMEの埋め込みタイトルが一致することを再確認する。`git push origin main` の後、GitHubオーナー `anilaomagdalena-sketch` の `weekly` workflowを手動起動し、成功を待つ。単なる `main` へのプッシュではPagesの配備が始まらないため、この手順を省かない。
-- [ ] **Step 10: 公開結果を確認して報告する。** 公開ページと `data.json` がHTTP 200で、肉タブと5品目の価格を表示することを確認する。5品目のデータ範囲、欠測・除外、テスト結果、公開URLを著者へ日本語で伝える。WordPressは変更しない。
+- [x] **Step 9: 公開する。** `site/data.json` の5品目が空でなく、READMEの埋め込みタイトルが一致することを再確認する。`git push origin main` の後、GitHubオーナー `anilaomagdalena-sketch` の `weekly` workflowを手動起動し、成功を待つ。単なる `main` へのプッシュではPagesの配備が始まらないため、この手順を省かない。
+- [x] **Step 10: 公開結果を確認して報告する。** 公開ページと `data.json` がHTTP 200で、肉タブと5品目の価格を表示することを確認する。5品目のデータ範囲、欠測・除外、テスト結果、公開URLを著者へ日本語で伝える。WordPressは変更しない。
