@@ -206,7 +206,8 @@ def run(data_dir: Path, *, fetch: Callable[[str], bytes] = http_fetch,
             continue
         stats.new += 1
         digest = hashlib.sha256(data).hexdigest()
-        metadata = dict(sha256=digest, fetched_at=now().astimezone(timezone.utc).isoformat().replace("+00:00", "Z"))
+        fetched_at = (old.get("fetched_at") if cached and old else "") or now().astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+        metadata = dict(sha256=digest, fetched_at=fetched_at)
         try:
             result = parse(data)
         except Exception as error:

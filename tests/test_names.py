@@ -71,3 +71,15 @@ def test_author_approved_unmapped_names(raw, expected):
 ])
 def test_meat_aliases(raw, expected):
     assert NM.lookup(raw) == expected
+
+
+@pytest.mark.parametrize("raw, spec", [
+    ("Whole Chicken", "Magnolia"),
+    ("Whole Chicken", "Bounty Fresh"),
+    ("Whole Chicken", "In-house Brand"),
+    ("Whole Chicken", "unbranded, fresh"),
+    ("Whole Chicken", "fully dressed"),
+    ("Whole Chicken, Local", "Fully Dressed"),
+])
+def test_whole_chicken_with_separate_sales_spec_is_unmapped(raw, spec):
+    assert NM.lookup(raw, spec) is None

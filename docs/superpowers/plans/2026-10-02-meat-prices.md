@@ -59,13 +59,13 @@
 
 **Interfaces:** `collect.run(..., reparse_from="2020-11-03", cache_dir=Path(".cache/pdf"))` は既存の `sources.csv` で `parsed` のPDFだけをキャッシュから読み、`aggregate.main` と `build_site.main` が公開JSONを更新する。
 
-- [ ] **Step 1: 再解析の失敗する統合テストを書く。** `tests/test_collect.py` の偽サイトで、肉の名称が未登録だった初回取り込みと、Task 1 の対応表を加えた後のキャッシュ再解析を再現する。後者でPDFのURLが `fetch` に渡らず、肉の `daily.csv` 行が加わることを確認する。PDFキャッシュを消した場合は `fetch_errors` が増え、PDFのURLが `fetch` に渡らず、既存の日次行が失われないことも確認する。
-- [ ] **Step 2: 失敗を確認する。** `python -m pytest tests/test_collect.py -q`。追加した再解析ケースが失敗すること。既存実装で最初から通るなら、実装を増やさず保護テストとして採用する。
-- [ ] **Step 3: 必要な収集処理の修正を行う。** Step 2 で実際に失敗した条件だけ修正する。キャッシュのみの再解析を維持し、通常の週次収集は変えない。
-- [ ] **Step 4: テストを通す。** `python -m pytest tests/test_collect.py -q` と `python -m pytest -q` が通ること。
-- [ ] **Step 5: 実データをキャッシュから再解析する。** 競合する収集処理が無いことと `.cache/pdf` の所在・台帳との対応を確認する。`python -m mmp.collect --data-dir data --cache-dir .cache/pdf --reparse-from 2020-11-03` を実行する。PDF取得はしない。キャッシュ欠損や解析失敗は件数とURLを記録し、原因が不明なまま取得し直さない。
-- [ ] **Step 6: 集計と点検を行う。** `python -m mmp.aggregate --data-dir data` と `python -m mmp.build_site --data-dir data --out site/data.json` を実行する。5品目の初日・最終日・週数・最大空白・除外件数・カルティマール行数を集計し、2020年・2022年・2025年・2026年の代表値を保存済みPDFと照合する。異常な段差や同日複数行の衝突があれば著者に報告して判断を待つ。点検結果と新しい件数を `docs/backfill-report.md` に追記する。
-- [ ] **Step 7: 公開前の確認をする。** `python -m pytest -q`、`python -m pytest -o addopts='' tests/e2e/test_site.py -q` を実行する。`site/data.json` に5品目の価格系列があり、既存の品目も残ることを確認する。PDFがGitの追加対象に入っていないことを確認する。
-- [ ] **Step 8: コミットする。** 変更したデータ・テスト・報告書だけを `git add` し、`git commit -m "Backfill and audit meat prices"`。`git status` でPDFが追跡されていないことを再確認する。
+- [x] **Step 1: 再解析の失敗する統合テストを書く。** `tests/test_collect.py` の偽サイトで、肉の名称が未登録だった初回取り込みと、Task 1 の対応表を加えた後のキャッシュ再解析を再現する。後者でPDFのURLが `fetch` に渡らず、肉の `daily.csv` 行が加わることを確認する。PDFキャッシュを消した場合は `fetch_errors` が増え、PDFのURLが `fetch` に渡らず、既存の日次行が失われないことも確認する。
+- [x] **Step 2: 失敗を確認する。** `python -m pytest tests/test_collect.py -q`。追加した再解析ケースが失敗すること。既存実装で最初から通るなら、実装を増やさず保護テストとして採用する。
+- [x] **Step 3: 必要な収集処理の修正を行う。** Step 2 で実際に失敗した条件だけ修正する。キャッシュのみの再解析を維持し、通常の週次収集は変えない。
+- [x] **Step 4: テストを通す。** `python -m pytest tests/test_collect.py -q` と `python -m pytest -q` が通ること。
+- [x] **Step 5: 実データをキャッシュから再解析する。** 競合する収集処理が無いことと `.cache/pdf` の所在・台帳との対応を確認する。`python -m mmp.collect --data-dir data --cache-dir .cache/pdf --reparse-from 2020-11-03` を実行する。PDF取得はしない。キャッシュ欠損や解析失敗は件数とURLを記録し、原因が不明なまま取得し直さない。
+- [x] **Step 6: 集計と点検を行う。** `python -m mmp.aggregate --data-dir data` と `python -m mmp.build_site --data-dir data --out site/data.json` を実行する。5品目の初日・最終日・週数・最大空白・除外件数・カルティマール行数を集計し、2020年・2022年・2025年・2026年の代表値を保存済みPDFと照合する。異常な段差や同日複数行の衝突があれば著者に報告して判断を待つ。点検結果と新しい件数を `docs/backfill-report.md` に追記する。
+- [x] **Step 7: 公開前の確認をする。** `python -m pytest -q`、`python -m pytest -o addopts='' tests/e2e/test_site.py -q` を実行する。`site/data.json` に5品目の価格系列があり、既存の品目も残ることを確認する。PDFがGitの追加対象に入っていないことを確認する。
+- [x] **Step 8: コミットする。** 変更したデータ・テスト・報告書だけを `git add` し、`git commit -m "Backfill and audit meat prices"`。`git status` でPDFが追跡されていないことを再確認する。
 - [ ] **Step 9: 公開する。** `site/data.json` の5品目が空でなく、READMEの埋め込みタイトルが一致することを再確認する。`git push origin main` の後、GitHubオーナー `anilaomagdalena-sketch` の `weekly` workflowを手動起動し、成功を待つ。単なる `main` へのプッシュではPagesの配備が始まらないため、この手順を省かない。
 - [ ] **Step 10: 公開結果を確認して報告する。** 公開ページと `data.json` がHTTP 200で、肉タブと5品目の価格を表示することを確認する。5品目のデータ範囲、欠測・除外、テスト結果、公開URLを著者へ日本語で伝える。WordPressは変更しない。

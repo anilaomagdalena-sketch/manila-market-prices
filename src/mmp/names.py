@@ -36,6 +36,9 @@ class NameMap:
     def lookup(self, raw_name: str, spec: str = "") -> str | None:
         """「名前 [規格]」→ 名前 → 末尾の脚注文字(a〜f)を1つ落とした名前、の順に探す。"""
         key = normalize(raw_name)
+        if spec and self.alias_to_id.get(key) == "whole_chicken":
+            # Branded, fresh, and fully dressed chicken are separate products.
+            return self.alias_to_id.get(f"{key} [{normalize(spec)}]")
         candidates = [f"{key} [{normalize(spec)}]"] if spec else []
         candidates.append(key)
         if re.search(r"[a-z)][a-f]$", key):

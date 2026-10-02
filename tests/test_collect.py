@@ -365,3 +365,66 @@ def test_reparse_retires_newly_mapped_name_without_double_counting_others(world,
     rows = (world.data_dir / "unmapped.csv").read_text(encoding="utf-8")
     assert "Dragon Fruit" not in rows
     assert "Premium,2026-06-01,2026-06-01,1," in rows
+
+
+def test_meat_backfill_uses_cached_pdf_without_fetching_it(world, tmp_path):
+    catalog = world.data_dir / "commodities.csv"
+    complete_catalog = catalog.read_text(encoding="utf-8")
+    catalog.write_text("\n".join(line for line in complete_catalog.splitlines()
+                                 if not line.startswith(("whole_chicken,", "pork_kasim,", "pork_liempo,",
+                                                         "beef_rump,", "beef_brisket,"))) + "\n", encoding="utf-8")
+    url = world.add("Price-Monitoring-November-20-2020",
+                    rows=[nrow("Tomato", prevailing=100.0), nrow("Whole Chicken", prevailing=180.0)])
+    cache = tmp_path / "cache"
+    assert world.run(cache_dir=cache).parsed == 1
+    assert [row["commodity_id"] for row in world.daily()] == ["tomato"]
+    catalog.write_text(complete_catalog, encoding="utf-8")
+
+    world.fetched.clear()
+    stats = world.run(cache_dir=cache, reparse_from="2020-11-20", reparse_to="2020-11-20")
+    assert stats.parsed == 1
+    assert world.fetched == [collect.INDEX_URL]
+    assert url not in world.fetched
+    assert [(row["commodity_id"], row["prevailing"]) for row in world.daily()] == [
+        ("tomato", "100"), ("whole_chicken", "180")]
+
+
+def test_missing_meat_reparse_cache_keeps_daily_rows(world, tmp_path):
+    url = world.add("Price-Monitoring-November-20-2020",
+                    rows=[nrow("Tomato", prevailing=100.0), nrow("Whole Chicken", prevailing=180.0)])
+    cache = tmp_path / "cache"
+    assert world.run(cache_dir=cache).parsed == 1
+    before = world.daily()
+    for path in cache.glob("*.pdf"):
+        path.unlink()
+
+    world.fetched.clear()
+    stats = world.run(cache_dir=cache, reparse_from="2020-11-20", reparse_to="2020-11-20")
+    assert stats.fetch_errors == 1
+    assert world.fetched == [collect.INDEX_URL]
+    assert url not in world.fetched
+    assert world.daily() == before
+
+
+def test_cached_reparse_preserves_original_fetch_time(world, tmp_path):
+    url = world.add("Price-Monitoring-November-20-2020", rows=[nrow("Whole Chicken", prevailing=180.0)])
+    cache = tmp_path / "cache"
+    original_time = dt.datetime(2026, 9, 1, tzinfo=dt.timezone.utc)
+    reparse_time = dt.datetime(2026, 10, 2, tzinfo=dt.timezone.utc)
+    world.run(cache_dir=cache, now=lambda: original_time)
+    fetched_at = world.ledger().get(url)["fetched_at"]
+
+    world.run(cache_dir=cache, reparse_from="2020-11-20", reparse_to="2020-11-20",
+              now=lambda: reparse_time)
+    assert world.ledger().get(url)["fetched_at"] == fetched_at
+
+
+def test_branded_whole_chicken_does_not_enter_regular_price_series(world):
+    world.add("Daily-Price-Index-May-4-2025", rows=[
+        nrow("Whole Chicken", spec="Magnolia", prevailing=208.0),
+        nrow("Whole Chicken", spec="Bounty Fresh", prevailing=200.0),
+        nrow("Whole Chicken", spec="unbranded, fresh", prevailing=185.0),
+        nrow("Tomato", prevailing=100.0),
+    ])
+    assert world.run().parsed == 1
+    assert [(r["commodity_id"], r["prevailing"]) for r in world.daily()] == [("tomato", "100")]

@@ -77,6 +77,12 @@ def test_2021_market_only_falls_back_to_market_average():
                 if r["market"].startswith("Pasay") and "Cabbage" in r["raw_name"]]
 
 
+def test_2021_infographic_uses_today_in_adjacent_columns():
+    res = load("pm_2021-10-11")
+    assert res.report_date == dt.date(2021, 10, 11)
+    assert values(row(res, "Cabbage Repolyo")) == (None, None, 100.0, None)
+
+
 def test_2022_infographic_today_yesterday():
     res = load("pm_2022-06-01")
     assert res.report_date == dt.date(2022, 6, 1)
@@ -96,6 +102,13 @@ def test_2023_infographic_range_only():
     assert not [r for r in res.market_rows if r["market"].startswith("Cartimar")]
 
 
+def test_2023_infographic_range_on_coordinate_bucket_boundary():
+    res = load("pm_2023-01-03")
+    assert res.report_date == dt.date(2023, 1, 3)
+    assert values(row(res, "Whole Chicken (per kg)")) == (180.0, 220.0, None, None)
+    assert values(row(res, "Pechay Baguio")) == (70.0, 120.0, None, None)
+
+
 def test_2024_infographic_and_cartimar_ranges():
     res = load("pm_2024-06-01")
     assert res.report_date == dt.date(2024, 6, 1)
@@ -109,6 +122,12 @@ def test_2024_infographic_and_cartimar_ranges():
     assert market(res, "Cartimar", "Tomato")["price"] == 82.5
     # 見出しに日付の行（June 2024）が混ざらないこと
     assert not [r for r in res.market_rows if "2024" in r["raw_name"]]
+
+
+def test_2024_infographic_keeps_both_range_ends():
+    res = load("pm_2024-05-18")
+    assert res.report_date == dt.date(2024, 5, 18)
+    assert values(row(res, "Imported Garlic Bawang")) == (125.0, 180.0, None, None)
 
 
 def test_2025_header_table_four_values():

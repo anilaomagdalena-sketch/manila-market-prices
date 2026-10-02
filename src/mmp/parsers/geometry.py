@@ -83,10 +83,8 @@ def value_groups(words: list[Word], max_gap: float) -> list[ValueGroup]:
     間にラベルの単語が挟まっていたら、隙間が小さくても別のかたまりにする。
     """
     labels = [w for w in words if not is_num(w.text) and w.text not in DASHES]
-    toks = sorted(
-        (w for w in words if is_num(w.text) or w.text in DASHES),
-        key=lambda w: (round(w.cy / 3), w.x0),
-    )
+    toks = [w for line in group_lines([w for w in words if is_num(w.text) or w.text in DASHES])
+            for w in line]
     groups: list[list[Word]] = []
     cur: list[Word] = []
     for w in toks:
