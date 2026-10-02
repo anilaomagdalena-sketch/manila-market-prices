@@ -35,11 +35,11 @@
 
 **Interfaces:** `NameMap(Path("data/commodities.csv")).lookup(raw_name: str, spec: str = "") -> str | None` を使う。後続タスクが `category=meat` と5つのIDに依存する。
 
-- [ ] **Step 1: 失敗する名称テストを書く。** `tests/test_names.py` に、`Whole Chicken`、`Whole Chicken (per kg)`、`Whole Chicken, Local` → `whole_chicken`、`Pork Ham` と `Pork Kasim (per kg)` → `pork_kasim`、`Pork Belly` と `Pork Liempo (per kg)` → `pork_liempo`、`Beef Rump` と `Beef Brisket` →各IDを加える。`Whole Chicken, Imported`、`Frozen Kasim`、`Chicken Egg`、`Pork Ham/Kasim (fresh or chilled)` → `None` も確認する。
-- [ ] **Step 2: 失敗を確認する。** `python -m pytest tests/test_names.py -q`。追加ケースが失敗すること。
-- [ ] **Step 3: `data/commodities.csv` に5行を追加する。** `category=meat`、`display=1`、`order=600,610,620,630,640`。表示名とIDは設計書2節のとおり。`aliases` は `data/unmapped.csv` の実在名を確認し、対象外の販売条件と衝突しないものだけを登録する。`name_en` は Whole Chicken / Pork Ham (Kasim) / Pork Belly (Liempo) / Beef Rump / Beef Brisket。`name_tl` は確認できた現地名だけを入れる。
-- [ ] **Step 4: 成功を確認する。** `python -m pytest tests/test_names.py -q`。追加ケースと既存ケースがすべて通ること。
-- [ ] **Step 5: コミットする。** `git add data/commodities.csv tests/test_names.py && git commit -m "Add five meat commodities and aliases"`。
+- [x] **Step 1: 失敗する名称テストを書く。** `tests/test_names.py` に、`Whole Chicken`、`Whole Chicken (per kg)`、`Whole Chicken, Local` → `whole_chicken`、`Pork Ham` と `Pork Kasim (per kg)` → `pork_kasim`、`Pork Belly` と `Pork Liempo (per kg)` → `pork_liempo`、`Beef Rump` と `Beef Brisket` →各IDを加える。`Whole Chicken, Imported`、`Frozen Kasim`、`Chicken Egg`、`Pork Ham/Kasim (fresh or chilled)` → `None` も確認する。
+- [x] **Step 2: 失敗を確認する。** `python -m pytest tests/test_names.py -q`。追加ケースが失敗すること。
+- [x] **Step 3: `data/commodities.csv` に5行を追加する。** `category=meat`、`display=1`、`order=600,610,620,630,640`。表示名とIDは設計書2節のとおり。`aliases` は `data/unmapped.csv` の実在名を確認し、対象外の販売条件と衝突しないものだけを登録する。`name_en` は Whole Chicken / Pork Ham (Kasim) / Pork Belly (Liempo) / Beef Rump / Beef Brisket。`name_tl` は確認できた現地名だけを入れる。
+- [x] **Step 4: 成功を確認する。** `python -m pytest tests/test_names.py -q`。追加ケースと既存ケースがすべて通ること。
+- [x] **Step 5: コミットする。** `git add data/commodities.csv tests/test_names.py && git commit -m "Add five meat commodities and aliases"`。
 
 ### Task 2: 分類と画面表示
 

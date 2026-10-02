@@ -61,3 +61,8 @@ salmon_belly_imported,fish,サーモンの腹身（輸入）,,Salmon belly (impo
 bonito,fish,ボニート（ソウダガツオ類）,Tulingan,Bonito,Bonito|Bonito (Frigate Tuna),,1,580
 pampano_local,fish,パンパノ（国産）,,Pampano (local),"Pampano, Local",,1,590
 pampano_imported,fish,パンパノ（輸入）,,Pampano (imported),"Pampano, Imported",,1,591
+whole_chicken,meat,鶏肉（丸鶏）,Manok,Whole Chicken,Whole Chicken|Whole Chicken (Manok),,1,600
+pork_kasim,meat,豚肉（カシム）,Kasim,Pork Ham (Kasim),Pork Ham|Pork Kasim,,1,610
+pork_liempo,meat,豚肉（リエンポ）,Liempo,Pork Belly (Liempo),Pork Belly|Pork Liempo,,1,620
+beef_rump,meat,牛肉（ランプ）,,Beef Rump,Beef Rump,,1,630
+beef_brisket,meat,牛肉（ブリスケット）,,Beef Brisket,Beef Brisket,,1,640

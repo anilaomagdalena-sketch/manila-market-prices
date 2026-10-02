@@ -50,3 +50,24 @@ def test_normalize():
 ])
 def test_author_approved_unmapped_names(raw, expected):
     assert NM.lookup(raw) == expected
+
+
+@pytest.mark.parametrize("raw, expected", [
+    ("Whole Chicken", "whole_chicken"),
+    ("Whole Chicken (per kg)", "whole_chicken"),
+    ("Whole Chicken, Local", "whole_chicken"),
+    ("Whole Chicken (Manok)", "whole_chicken"),
+    ("Pork Ham", "pork_kasim"),
+    ("Pork Kasim (per kg)", "pork_kasim"),
+    ("Pork Belly", "pork_liempo"),
+    ("Pork Liempo (per kg)", "pork_liempo"),
+    ("Beef Rump", "beef_rump"),
+    ("Beef Brisket", "beef_brisket"),
+    ("Whole Chicken, Imported", None),
+    ("Frozen Kasim", None),
+    ("Chicken Egg", None),
+    ("Pork Ham/Kasim (fresh or chilled)", None),
+    ("Pork Belly/Liempo (fresh or chilled)", None),
+])
+def test_meat_aliases(raw, expected):
+    assert NM.lookup(raw) == expected
