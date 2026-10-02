@@ -88,9 +88,9 @@ docs/                 設計書、計画書、参考資料（既存）
 
 実装の前に、著者が次を済ませる。Codexはここは実行しない。
 
-- [ ] GitHubに公開リポジトリ `manila-market-prices` を空で作る（README等は付けない）。
-- [ ] 設計・計画・試作の入った作業フォルダ（Mac miniの `~/local-work/manila-market-prices/`）をMacBook Proへ持っていき、そのリポジトリへpushする。
-- [ ] MacBook ProでCodexをそのリポジトリのフォルダで起動し、「`docs/superpowers/plans/2026-10-01-manila-market-prices.md` を Task 1 から実装して」と指示する。
+- [x] GitHubに公開リポジトリ `manila-market-prices` を空で作る（README等は付けない）。
+- [x] 設計・計画・試作の入った作業フォルダ（Mac miniの `~/local-work/manila-market-prices/`）をMacBook Proへ持っていき、そのリポジトリへpushする。
+- [x] MacBook ProでCodexをそのリポジトリのフォルダで起動し、「`docs/superpowers/plans/2026-10-01-manila-market-prices.md` を Task 1 から実装して」と指示する。
 
 ---
 
@@ -1681,7 +1681,7 @@ git commit -m "Backfill prices from November 2020 and add the audit report"
 **Files:**
 - Create: `README.md`
 
-- [ ] **Step 1: GitHub Pagesを有効にする**（著者の作業、またはCodexが `gh` で行う）
+- [x] **Step 1: GitHub Pagesを有効にする**（著者の作業、またはCodexが `gh` で行う）
 
 リポジトリの Settings → Pages → Build and deployment → Source を「GitHub Actions」にする。`weekly` を手動実行し、表示されたURL（`https://<owner>.github.io/manila-market-prices/`）を開いて確かめる。
 
@@ -1707,13 +1707,13 @@ git commit -m "Backfill prices from November 2020 and add the audit report"
 
 - 出典と注意：データは農業省 DA-AMAS Bantay Presyo の公表値。首都圏の調査市場の平均で、個々の店の値段ではない。
 
-- [ ] **Step 3: コミットしてpush**
+- [x] **Step 3: コミットしてpush**
 
 ```bash
 git add README.md && git commit -m "Add README with operations notes and embed snippet" && git push
 ```
 
-- [ ] **Step 4: 著者に引き渡す**
+- [x] **Step 4: 著者に引き渡す**
 
 著者に、次の作業が残っていることを伝える。
 
