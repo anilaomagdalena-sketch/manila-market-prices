@@ -1,7 +1,8 @@
 {
   "updated": "2026-10-05", "latest_report": "2026-10-02",
   "categories": [{"id": "vegetable", "label": "野菜"}, {"id": "spice", "label": "香味野菜"},
-                 {"id": "fruit", "label": "果物"}, {"id": "fish", "label": "魚介"}],
+                 {"id": "fruit", "label": "果物"}, {"id": "fish", "label": "魚介"},
+                 {"id": "meat", "label": "肉"}],
   "items": [
     {"id": "tomato", "category": "vegetable", "name_ja": "トマト", "name_tl": "Kamatis", "name_en": "Tomato", "unit": "kg",
      "ncr": [["2020-11-16", 170, 120, 210, "prevailing"], ["2020-11-23", 160, 110, 200, "prevailing"],
@@ -14,6 +15,8 @@
      "ncr": [], "cartimar": [], "own": [["2024-05-23", 120]]},
     {"id": "bangus", "category": "fish", "name_ja": "バンゴス（ミルクフィッシュ）", "name_tl": "Bangus", "name_en": "Milkfish", "unit": "kg",
      "ncr": [["2026-09-28", 240, 190, 300, "prevailing"]], "cartimar": [], "own": []},
+    {"id": "whole_chicken", "category": "meat", "name_ja": "鶏肉（丸鶏）", "name_tl": "Manok", "name_en": "Whole Chicken", "unit": "kg",
+     "ncr": [["2026-09-28", 210, 190, 230, "prevailing"]], "cartimar": [], "own": []},
     {"id": "own:パセリ", "category": "vegetable", "name_ja": "パセリ", "name_tl": "", "name_en": "", "unit": "kg",
      "ncr": [], "cartimar": [], "own": [["2021-01-21", 400], ["2021-02-18", 300]]}
   ]

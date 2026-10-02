@@ -65,6 +65,19 @@ def test_item_query_selects_item_and_category(page, site_url, errors):
     assert errors == []
 
 
+def test_meat_deep_link_has_no_own_legend_or_note(page, site_url, errors):
+    open_page(page, site_url, "&item=whole_chicken")
+    assert page.title() == "マニラの野菜・魚介・肉価格"
+    assert page.locator("#item").input_value() == "whole_chicken"
+    assert page.locator("#item option:checked").inner_text() == "鶏肉（丸鶏）（Manok／Whole Chicken）"
+    assert page.locator("[role=tab][aria-selected=true]").inner_text() == "肉"
+    assert "₱210" in page.locator("#stats").inner_text()
+    assert "カルティマールでの実測（著者）" not in page.locator("#legend").inner_text()
+    assert page.locator("#own-note").is_hidden()
+    assert page.evaluate("document.documentElement.scrollWidth <= document.documentElement.clientWidth")
+    assert errors == []
+
+
 def test_unknown_item_falls_back_to_first(page, site_url, errors):
     open_page(page, site_url, "&item=nope")
     assert page.locator("#item").input_value() == "tomato"
@@ -96,7 +109,7 @@ def test_period_without_data_shows_empty_message(page, site_url, errors):
 def test_empty_categories_are_not_shown_and_height_is_stable(page, site_url, errors):
     open_page(page, site_url)
     tabs = page.locator("[role=tab]").all_inner_texts()
-    assert tabs == ["野菜", "魚介"]
+    assert tabs == ["野菜", "魚介", "肉"]
     before = page.evaluate("document.documentElement.scrollHeight")
     page.select_option("#item", "celery")
     page.wait_for_selector("#chart[data-ready='1']")

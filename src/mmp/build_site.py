@@ -13,6 +13,7 @@ CATEGORIES = [
     {"id": "spice", "label": "香味野菜"},
     {"id": "fruit", "label": "果物"},
     {"id": "fish", "label": "魚介"},
+    {"id": "meat", "label": "肉"},
 ]
 
 

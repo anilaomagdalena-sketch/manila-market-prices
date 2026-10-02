@@ -1,6 +1,6 @@
-# マニラの野菜・魚介の価格推移
+# マニラの野菜・魚介・肉の価格推移
 
-フィリピン農業省（DA-AMAS Bantay Presyo）の公表資料から、首都圏の野菜・魚介の価格を週ごとにまとめたページです。カルティマール市場の農業省調査値と、著者が現地で記録した実測値も表示します。
+フィリピン農業省（DA-AMAS Bantay Presyo）の公表資料から、首都圏の野菜・魚介・肉の価格を週ごとにまとめたページです。カルティマール市場の農業省調査値と、著者が現地で記録した実測値も表示します。肉は丸鶏、豚肉2部位、牛肉2部位が対象です。無修飾の品目名から産地や保存状態は推定しません。
 
 公開ページ：<https://anilaomagdalena-sketch.github.io/manila-market-prices/>
 
@@ -30,7 +30,7 @@ GitHub Actions の `weekly` は、フィリピン時間の毎週月曜07:17に�
 ## WordPressへの埋め込み
 
 ```html
-<iframe src="https://anilaomagdalena-sketch.github.io/manila-market-prices/" title="マニラの野菜・魚介の価格推移"
+<iframe src="https://anilaomagdalena-sketch.github.io/manila-market-prices/" title="マニラの野菜・魚介・肉の価格推移"
         style="width:100%;height:914px;border:0" loading="lazy"></iframe>
 ```
 

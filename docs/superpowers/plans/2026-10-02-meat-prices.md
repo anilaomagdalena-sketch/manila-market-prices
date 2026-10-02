@@ -47,11 +47,11 @@
 
 **Interfaces:** Task 1 の `category=meat` の品目行を既存の `build(weekly, own, commodities, *, updated, latest_report) -> dict` に渡す。出力の `categories` の最後は `{"id":"meat","label":"肉"}`、5品目の `unit` は `kg`、実測系列 `own` は空。
 
-- [ ] **Step 1: 失敗する生成・画面テストを書く。** `tests/test_build_site.py` の標本へ `whole_chicken` とその週次価格を追加し、分類順が野菜・香味野菜・果物・魚介・肉、鶏肉のNCR系列が存在して `own=[]` と確認する。`tests/e2e/data.sample.json` に肉タブと鶏肉の標本を加える。`tests/e2e/test_site.py` で `?item=whole_chicken` が肉タブと品目名を選び、実測値の凡例と注記が出ず、360pxで横スクロールしないことと、ページタイトルに「肉」が入ることを確認する。空分類のテストは肉を含む標本に合わせる。
-- [ ] **Step 2: 失敗を確認する。** `python -m pytest tests/test_build_site.py -q` と `python -m pytest -o addopts='' tests/e2e/test_site.py -q`。追加した分類または画面ケースが失敗すること。
-- [ ] **Step 3: 分類と文言を実装する。** `CATEGORIES` に肉を加え、`site/index.html` のタイトル、`README.md` の見出し・説明・埋め込みタイトルを「野菜・魚介・肉」に改める。実測値の無い品目は既存の表示分岐を使う。360pxの横幅テストが落ちた場合のみ分類タブを折り返すCSSを加える。
-- [ ] **Step 4: 成功を確認する。** Step 2の両コマンドを再実行し、すべて通ること。既存の野菜と魚介の選択も維持されること。
-- [ ] **Step 5: コミットする。** `git add src/mmp/build_site.py tests/test_build_site.py tests/e2e/data.sample.json tests/e2e/test_site.py site/index.html README.md site/style.css && git commit -m "Show meat category in price chart"`。CSSを変更しなかった場合は追加対象から外す。
+- [x] **Step 1: 失敗する生成・画面テストを書く。** `tests/test_build_site.py` の標本へ `whole_chicken` とその週次価格を追加し、分類順が野菜・香味野菜・果物・魚介・肉、鶏肉のNCR系列が存在して `own=[]` と確認する。`tests/e2e/data.sample.json` に肉タブと鶏肉の標本を加える。`tests/e2e/test_site.py` で `?item=whole_chicken` が肉タブと品目名を選び、実測値の凡例と注記が出ず、360pxで横スクロールしないことと、ページタイトルに「肉」が入ることを確認する。空分類のテストは肉を含む標本に合わせる。
+- [x] **Step 2: 失敗を確認する。** `python -m pytest tests/test_build_site.py -q` と `python -m pytest -o addopts='' tests/e2e/test_site.py -q`。追加した分類または画面ケースが失敗すること。
+- [x] **Step 3: 分類と文言を実装する。** `CATEGORIES` に肉を加え、`site/index.html` のタイトル、`README.md` の見出し・説明・埋め込みタイトルを「野菜・魚介・肉」に改める。実測値の無い品目は既存の表示分岐を使う。360pxの横幅テストが落ちた場合のみ分類タブを折り返すCSSを加える。
+- [x] **Step 4: 成功を確認する。** Step 2の両コマンドを再実行し、すべて通ること。既存の野菜と魚介の選択も維持されること。
+- [x] **Step 5: コミットする。** `git add src/mmp/build_site.py tests/test_build_site.py tests/e2e/data.sample.json tests/e2e/test_site.py site/index.html README.md site/style.css && git commit -m "Show meat category in price chart"`。CSSを変更しなかった場合は追加対象から外す。
 
 ### Task 3: 保存済みPDFの再解析と価格点検
 

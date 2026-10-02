@@ -14,6 +14,8 @@ COMMODITIES = [
      "name_en": "Celery", "aliases": "Celery", "own_items": "セロリ", "display": "1", "order": "190"},
     {"commodity_id": "melon", "category": "fruit", "name_ja": "メロン", "name_tl": "Melon",
      "name_en": "Melon", "aliases": "Melon", "own_items": "", "display": "1", "order": "450"},
+    {"commodity_id": "whole_chicken", "category": "meat", "name_ja": "鶏肉（丸鶏）", "name_tl": "Manok",
+     "name_en": "Whole Chicken", "aliases": "Whole Chicken", "own_items": "", "display": "1", "order": "600"},
 ]
 
 
@@ -33,6 +35,7 @@ WEEKLY = [
     w("2024-06-03", "tomato", "82.5", series="cartimar", basis="market"),
     w("2020-11-16", "cabbage_scorpio", "100"),
     w("2025-06-02", "bangus_large", "219.44"),
+    w("2026-09-28", "whole_chicken", "210"),
 ]
 OWN = [
     o("2020-11-20", "キャベツ", "100", en="Cabbage", tl="Repolyo"),
@@ -54,8 +57,9 @@ def item(data, item_id):
 def test_header_and_categories():
     data = build_default()
     assert (data["updated"], data["latest_report"]) == ("2026-10-05", "2026-10-02")
-    assert [c["id"] for c in data["categories"]] == ["vegetable", "spice", "fruit", "fish"]
+    assert [c["id"] for c in data["categories"]] == ["vegetable", "spice", "fruit", "fish", "meat"]
     assert data["categories"][1]["label"] == "香味野菜"
+    assert data["categories"][-1]["label"] == "肉"
 
 
 def test_item_series_shapes():
@@ -64,6 +68,14 @@ def test_item_series_shapes():
     assert tomato["cartimar"] == [["2024-06-03", 82.5]]
     assert tomato["own"] == [["2021-01-29", 100]]
     assert (tomato["name_ja"], tomato["name_tl"], tomato["name_en"], tomato["unit"]) == ("トマト", "Kamatis", "Tomato", "kg")
+
+
+def test_meat_has_ncr_price_without_own_series():
+    chicken = item(build_default(), "whole_chicken")
+    assert chicken["category"] == "meat"
+    assert chicken["unit"] == "kg"
+    assert chicken["ncr"] == [["2026-09-28", 210, None, None, "prevailing"]]
+    assert chicken["own"] == []
 
 
 def test_one_own_item_can_feed_two_commodities():
@@ -83,7 +95,7 @@ def test_own_only_commodity_is_kept_and_empty_or_hidden_ones_are_dropped():
 def test_unmatched_own_items_become_standalone_items_at_the_end():
     data = build_default()
     ids = [i["id"] for i in data["items"]]
-    assert ids == ["tomato", "cabbage", "cabbage_scorpio", "celery", "own:カラス貝", "own:パセリ"]
+    assert ids == ["tomato", "cabbage", "cabbage_scorpio", "celery", "whole_chicken", "own:カラス貝", "own:パセリ"]
     shell = item(data, "own:カラス貝")
     assert (shell["category"], shell["name_ja"], shell["name_tl"]) == ("fish", "カラス貝", "Tahong")
     assert shell["ncr"] == [] and shell["cartimar"] == [] and shell["own"] == [["2020-12-22", 150]]
