@@ -83,3 +83,25 @@ def test_meat_aliases(raw, expected):
 ])
 def test_whole_chicken_with_separate_sales_spec_is_unmapped(raw, spec):
     assert NM.lookup(raw, spec) is None
+
+
+@pytest.mark.parametrize("raw, spec", [
+    ("Pork Ham", "Imported"),
+    ("Pork Kasim", "Frozen"),
+    ("Pork Belly", "fresh or chilled"),
+    ("Beef Rump", "fresh or chilled"),
+    ("Beef Brisket", "Imported"),
+    ("Whole Chickena", "Fully Dressed"),
+])
+def test_meat_sales_conditions_do_not_fall_back_to_ordinary_alias(raw, spec):
+    assert NM.lookup(raw, spec) is None
+
+
+@pytest.mark.parametrize("raw, spec, expected", [
+    ("Pork Ham", "Kasim", "pork_kasim"),
+    ("Pork Belly", "Liempo", "pork_liempo"),
+    ("Beef Rump", "lean meat", "beef_rump"),
+    ("Beef Brisket", "meat w/bones", "beef_brisket"),
+])
+def test_meat_descriptive_specs_still_resolve(raw, spec, expected):
+    assert NM.lookup(raw, spec) == expected
