@@ -49,6 +49,19 @@ def test_last_price_uses_representative_value(tmp_path):
     assert st.last_price("squid", before="2030-01-01") is None
 
 
+def test_last_price_avoids_sorting_store_for_each_lookup(tmp_path, monkeypatch):
+    st = DailyStore(tmp_path / "d.csv")
+    st.replace_date("2026-01-01", [drow("tomato", prevailing=100.0)])
+
+    def unexpected_sort():
+        raise AssertionError("last_price sorted the full store")
+
+    monkeypatch.setattr(st, "rows", unexpected_sort)
+    assert st.last_price("tomato", before="2026-01-02") == 100.0
+    st.replace_date("2026-01-01", [drow("tomato", prevailing=120.0)])
+    assert st.last_price("tomato", before="2026-01-02") == 120.0
+
+
 def test_market_store_sorted(tmp_path):
     p = tmp_path / "m.csv"
     st = MarketStore(p)

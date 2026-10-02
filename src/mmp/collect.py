@@ -1,9 +1,13 @@
 """Fetch and parse new DA price reports without fetching known URLs again."""
 
 import argparse
+import csv
 from dataclasses import dataclass
 from datetime import datetime, timezone
+import fcntl
+from functools import wraps
 import hashlib
+import os
 from pathlib import Path
 import time
 from typing import Callable
@@ -76,8 +80,11 @@ def _representative(row: dict) -> float | None:
 
 
 def _load_pdf(link: Link, old: dict | None, cache_dir: Path | None, fetch, *, cache_only=False) -> tuple[bytes, bool]:
-    if cache_dir and old and old.get("sha256"):
-        cached = cache_dir / f"{old['sha256'][:16]}.pdf"
+    cached_sha = old.get("sha256") if old else ""
+    if cache_dir and not cached_sha:
+        cached_sha = _cache_index(cache_dir).get(link.url, "")
+    if cache_dir and cached_sha:
+        cached = cache_dir / f"{cached_sha[:16]}.pdf"
         if cached.exists():
             return cached.read_bytes(), True
     if cache_only:
@@ -87,10 +94,50 @@ def _load_pdf(link: Link, old: dict | None, cache_dir: Path | None, fetch, *, ca
         raise FetchError("response is not a PDF")
     if cache_dir:
         cache_dir.mkdir(parents=True, exist_ok=True)
-        (cache_dir / f"{hashlib.sha256(data).hexdigest()[:16]}.pdf").write_bytes(data)
+        digest = hashlib.sha256(data).hexdigest()
+        (cache_dir / f"{digest[:16]}.pdf").write_bytes(data)
+        _remember_cache(cache_dir, link.url, digest)
     return data, False
 
 
+def _cache_index(cache_dir: Path) -> dict[str, str]:
+    path = cache_dir / "url-sha.csv"
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8", newline="") as handle:
+        return {row["url"]: row["sha256"] for row in csv.DictReader(handle)}
+
+
+def _remember_cache(cache_dir: Path, url: str, digest: str) -> None:
+    entries = _cache_index(cache_dir)
+    entries[url] = digest
+    path = cache_dir / "url-sha.csv"
+    temp = cache_dir / "url-sha.tmp"
+    with temp.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=("url", "sha256"), lineterminator="\n")
+        writer.writeheader()
+        writer.writerows({"url": key, "sha256": value} for key, value in sorted(entries.items()))
+    os.replace(temp, path)
+
+
+def _single_collector(function):
+    @wraps(function)
+    def locked(data_dir: Path, **kwargs):
+        data_dir = Path(data_dir)
+        data_dir.mkdir(parents=True, exist_ok=True)
+        with (data_dir / ".collect.lock").open("a+") as handle:
+            try:
+                fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except BlockingIOError as error:
+                raise FetchError("collector already running") from error
+            try:
+                return function(data_dir, **kwargs)
+            finally:
+                fcntl.flock(handle, fcntl.LOCK_UN)
+    return locked
+
+
+@_single_collector
 def run(data_dir: Path, *, fetch: Callable[[str], bytes] = http_fetch,
         parse: Callable[[bytes], ParseResult] = parse_pdf, max_new: int | None = None,
         retry_failed: bool = False, delay: float = 3.0, cache_dir: Path | None = None,
@@ -127,7 +174,7 @@ def run(data_dir: Path, *, fetch: Callable[[str], bytes] = http_fetch,
     for link in links:
         old = ledger.get(link.url)
         if reparse:
-            if old and old["sha256"] and old["report_date"] and (reparse_from is None or old["report_date"] >= reparse_from) and (reparse_to is None or old["report_date"] <= reparse_to):
+            if old and old["status"] == "parsed" and old["sha256"] and old["report_date"] and (reparse_from is None or old["report_date"] >= reparse_from) and (reparse_to is None or old["report_date"] <= reparse_to):
                 candidates.append(link)
             continue
         if old and not (retry_failed and old["status"] == "failed"):
@@ -180,7 +227,8 @@ def run(data_dir: Path, *, fetch: Callable[[str], bytes] = http_fetch,
             else:
                 date = report_date.isoformat()
                 mismatch = f"date_mismatch body={result.report_date}" if link.report_date and result.report_date and link.report_date != result.report_date else ""
-                _store_result(link, result, date, names, daily, markets, unmapped, rejected, ledger, metadata, mismatch, now())
+                _store_result(link, result, date, names, daily, markets, unmapped, rejected, ledger,
+                              metadata, mismatch, now(), reparse=reparse)
                 if ledger.get(link.url)["status"] == "parsed":
                     stats.parsed += 1
                 else:
@@ -190,23 +238,29 @@ def run(data_dir: Path, *, fetch: Callable[[str], bytes] = http_fetch,
         if not cached and delay:
             time.sleep(delay)
 
+    if reparse:
+        unmapped.retire_mapped(names.lookup, reparse_from, reparse_to)
     checkpoint()
     return stats
 
 
-def _store_result(link, result, date, names, daily, markets, unmapped, rejected, ledger, metadata, mismatch, current_time):
+def _store_result(link, result, date, names, daily, markets, unmapped, rejected, ledger, metadata,
+                  mismatch, current_time, *, reparse=False):
     existing = next((row for row in daily.rows() if row["date"] == date), None)
     previous = ledger.get(existing["source_url"]) if existing else None
     if previous and _priority(previous) > _priority(_entry(link, current_time)):
         ledger.put(_entry(link, current_time, report_date=date, status="superseded", error=mismatch, **metadata))
         return
 
+    if reparse:
+        rejected.remove_source(link.url)
     rows = []
     seen = set()
     for row in result.rows:
         cid = names.lookup(row["raw_name"], row.get("spec", ""))
         if cid is None:
-            unmapped.add(row["raw_name"], date, link.url)
+            if not reparse:
+                unmapped.add(row["raw_name"], date, link.url)
             continue
         if cid in seen:
             continue

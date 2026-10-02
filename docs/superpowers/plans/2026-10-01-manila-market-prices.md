@@ -1602,7 +1602,7 @@ git commit -m "Add health check and scheduled workflows"
 - Create: `docs/backfill-report.md`
 - Modify: `data/commodities.csv`（別名の追加）
 
-- [ ] **Step 1: 手元で取り込む**
+- [x] **Step 1: 手元で取り込む**
 
 対象は約1,640本（Price Monitoring）。1本3秒で、読み取りを含めて2時間ほど。途中で止めても続きから進む。
 
@@ -1612,7 +1612,7 @@ python -m mmp.collect --data-dir data --cache-dir .cache/pdf --max-new 400
 
 これを、`new=0` になるまで繰り返す。GitHub Actionsから動かす場合は `backfill` を手動実行する（設計書11節の5：DAが海外からのアクセスを拒むなら、手元で行う）。
 
-- [ ] **Step 2: 点検の報告を書く**
+- [x] **Step 2: 点検の報告を書く**
 
 `docs/backfill-report.md` に、次を表でまとめる（数は `data/sources.csv` などから集計する）。
 
@@ -1624,7 +1624,7 @@ python -m mmp.collect --data-dir data --cache-dir .cache/pdf --max-new 400
 6. 品目ごとに、週次データのある最初の週・最後の週・週の数・4週以上あいている区間。
 7. 見本の日付での突き合わせ：2020-11-20のトマトの実勢が180、キャベツ（スコーピオ種）が100、2026-08-28のカルティマールのバンゴスが250であること。
 
-- [ ] **Step 3: 対応表を直してやり直す**
+- [x] **Step 3: 対応表を直してやり直す**（上位50件は対象外。著者の承認後、51位以下の候補を追加し、保存済みPDFを再解析）
 
 4で印を付けた名前を `data/commodities.csv` の `aliases` に足す（新しい品目なら行を足す。和名は著者に確認する印として、報告書に一覧を書く）。そのうえで、対応が取れなかった日を入れ直す。
 
@@ -1651,7 +1651,7 @@ def test_reparse_picks_up_new_aliases_without_refetching(world, tmp_path):
 
 通ったら、該当期間を入れ直す。
 
-- [ ] **Step 4: 著者に報告して止まる**
+- [x] **Step 4: 著者に報告して止まる**
 
 次の点は著者の判断がいる。報告書の冒頭に、質問として書く。
 
@@ -1660,7 +1660,7 @@ def test_reparse_picks_up_new_aliases_without_refetching(world, tmp_path):
 - 新しく足した品目の和名。
 - `rejected.csv` に本物の値動き（2022〜23年のタマネギの高騰など）が入っていないか。入っていたら、5倍の基準を見直す。
 
-- [ ] **Step 5: 集計して画面用データを作り、コミット**
+- [x] **Step 5: 集計して画面用データを作り、コミット**
 
 ```bash
 python -m mmp.aggregate --data-dir data

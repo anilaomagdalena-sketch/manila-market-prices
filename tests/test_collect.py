@@ -1,4 +1,5 @@
 import datetime as dt
+import fcntl
 from pathlib import Path
 
 import pytest
@@ -292,3 +293,75 @@ def test_reparse_range_uses_cached_pdf_without_refetching(world, tmp_path):
     assert world.run(cache_dir=cache, reparse_from="2020-11-20", reparse_to="2020-11-20").parsed == 1
     assert world.fetched == [collect.INDEX_URL]
     assert world.daily()[0]["prevailing"] == "110"
+
+
+def test_reparse_range_only_selects_parsed_reports(world, tmp_path):
+    parsed_url = world.add("Price-Monitoring-May-1-2025", rows=[nrow("Tomato", prevailing=100.0)])
+    failed_url = world.add("Price-Monitoring-May-2-2025", rows=[])
+    cache = tmp_path / "cache"
+    assert world.run(cache_dir=cache).new == 2
+    assert world.ledger().get(failed_url)["status"] == "failed"
+
+    world.fetched.clear()
+    stats = world.run(cache_dir=cache, reparse_from="2025-05-01", reparse_to="2025-05-02")
+
+    assert (stats.new, stats.parsed, stats.failed) == (1, 1, 0)
+    assert world.fetched == [collect.INDEX_URL]
+    assert world.ledger().get(parsed_url)["status"] == "parsed"
+    assert world.ledger().get(failed_url)["status"] == "failed"
+
+
+def test_interrupt_after_download_recovers_from_cache_without_refetch(world, tmp_path):
+    url = world.add("Price-Monitoring-March-21-2024", rows=[nrow("Tomato", prevailing=110.0)])
+    cache = tmp_path / "cache"
+    original_parse = world.parse
+
+    def interrupted_parse(data):
+        raise KeyboardInterrupt
+
+    with pytest.raises(KeyboardInterrupt):
+        collect.run(world.data_dir, fetch=world.fetch, parse=interrupted_parse,
+                    cache_dir=cache, delay=0)
+    assert not world.ledger().has(url)
+    world.fetched.clear()
+    stats = collect.run(world.data_dir, fetch=world.fetch, parse=original_parse,
+                        cache_dir=cache, delay=0)
+    assert stats.parsed == 1
+    assert world.fetched == [collect.INDEX_URL]
+
+
+def test_second_collector_stops_before_fetching_index(world):
+    lock_path = world.data_dir / ".collect.lock"
+    with lock_path.open("w") as handle:
+        fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        with pytest.raises(collect.FetchError, match="collector already running"):
+            world.run()
+        assert world.fetched == []
+
+
+def test_reparse_picks_up_new_aliases_without_refetching(world, tmp_path):
+    url = world.add("Price-Monitoring-June-1-2026", rows=[nrow("Tomato", prevailing=60.0), nrow("Dragon Fruit", prevailing=200.0)])
+    cache = tmp_path / "cache"
+    world.run(cache_dir=cache)
+    assert [r["commodity_id"] for r in world.daily()] == ["tomato"]
+    csv_path = world.data_dir / "commodities.csv"
+    csv_path.write_text(csv_path.read_text(encoding="utf-8")
+                        + "dragon_fruit,fruit,ドラゴンフルーツ,,Dragon fruit,Dragon Fruit,,1,480\n", encoding="utf-8")
+    world.fetched.clear()
+    world.run(cache_dir=cache, reparse_from="2026-06-01", reparse_to="2026-06-01")
+    assert url not in world.fetched
+    assert [r["commodity_id"] for r in world.daily()] == ["dragon_fruit", "tomato"]
+
+
+def test_reparse_retires_newly_mapped_name_without_double_counting_others(world, tmp_path):
+    world.add("Price-Monitoring-June-1-2026", rows=[nrow("Dragon Fruit", prevailing=200.0),
+                                                   nrow("Premium", prevailing=50.0)])
+    cache = tmp_path / "cache"
+    world.run(cache_dir=cache)
+    csv_path = world.data_dir / "commodities.csv"
+    csv_path.write_text(csv_path.read_text(encoding="utf-8")
+                        + "dragon_fruit,fruit,ドラゴンフルーツ,,Dragon fruit,Dragon Fruit,,1,480\n", encoding="utf-8")
+    world.run(cache_dir=cache, reparse_from="2026-06-01", reparse_to="2026-06-01")
+    rows = (world.data_dir / "unmapped.csv").read_text(encoding="utf-8")
+    assert "Dragon Fruit" not in rows
+    assert "Premium,2026-06-01,2026-06-01,1," in rows

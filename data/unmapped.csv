@@ -1,0 +1,471 @@
+raw_name,first_date,last_date,count,example_url
+Premium,2020-11-03,2026-09-30,3195,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Special,2020-11-03,2025-11-15,2529,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Regular Milled,2021-09-01,2026-09-30,1956,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+1L,2021-09-01,2025-01-15,1607,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Well-milled,2021-09-01,2025-05-15,1548,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Coconut Oil 350ml,2021-09-01,2026-09-30,1367,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Well Milled,2025-01-16,2026-09-30,1195,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Beef Brisket,2020-11-03,2026-09-30,920,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Egg (medium) per piece,2021-09-01,2024-05-01,904,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Sugar Brown,2021-09-01,2025-09-21,859,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Sugar Refined,2021-09-01,2025-09-21,858,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Whole Chicken (per kg),2021-09-01,2025-01-15,840,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Sugar Washed,2021-09-01,2025-09-21,836,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Whole Chicken,2020-11-03,2026-09-30,829,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+350ml,2021-09-01,2025-01-15,824,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Beef Rump (per kg),2021-09-01,2024-12-05,801,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Sugar (Washed),2020-11-03,2026-09-30,781,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Sugar (Brown),2020-11-03,2026-09-30,779,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Sugar (Refined),2020-11-03,2026-09-30,779,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Pork Kasim (per kg),2021-09-01,2025-01-15,772,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Beef Rump,2020-11-03,2026-09-30,765,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Pork Belly,2020-11-03,2026-09-30,733,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Pork Ham,2020-11-03,2026-09-30,733,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Pork Liempo (per kg),2021-09-01,2025-01-15,727,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Other Special Rice,2025-11-16,2026-09-30,638,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-16-2025.pdf
+Beef Brisket (per kg),2021-09-01,2024-12-30,624,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-1-2021-Final-Version.pdf
+Corn (White),2023-11-23,2026-09-30,597,https://www.da.gov.ph/wp-content/uploads/2023/11/Price-Monitoring-November-23-2023.pdf
+Corn Grits (Feed Grade),2025-01-16,2026-09-30,589,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Glutinous,2025-11-15,2026-09-30,569,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-15-2025.pdf
+"Chicken Egg (Brown, Medium)",2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (White, Extra Large)",2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (White, Jumbo)",2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (White, Large)",2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Frozen Kasim,2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Frozen Liempo,2025-01-16,2026-09-30,530,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Coconut Oil 1L,2025-01-16,2026-09-30,529,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Palm Oil 1L,2025-01-16,2026-09-30,529,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Palm Oil 350ml,2025-01-16,2026-09-30,529,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (White, Pewee)",2025-01-16,2026-09-30,528,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (Brown, Large)",2025-01-16,2026-09-30,484,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Corn Cracked (Yellow, Feed Grade)",2025-01-16,2026-09-30,481,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Chicken Egg (Brown, Extra Large)",2025-01-16,2026-09-30,432,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+P20 Benteng Bigas Meron Naᵃ,2025-05-17,2026-09-30,430,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+Yellow Sweet Corn (Cob),2025-05-17,2026-09-30,430,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+Cooking oil (Palm),2020-11-03,2021-08-31,406,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+"Chicken Egg (White, Small)",2025-02-07,2026-09-30,394,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-7-2025.pdf
+"Chicken Egg (White, Medium)",2025-01-16,2026-09-28,369,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+Well milled,2020-11-03,2021-08-31,366,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Corn (Yellow) Japanese,2023-11-24,2025-01-15,305,https://www.da.gov.ph/wp-content/uploads/2023/11/Price-Monitoring-November-24-2023.pdf
+Regular Milled*,2022-01-10,2023-05-11,304,https://www.da.gov.ph/wp-content/uploads/2022/01/Price-Monitoring-January-10-2022.pdf
+Corn (White) Glutinous,2023-11-24,2025-01-15,291,https://www.da.gov.ph/wp-content/uploads/2023/11/Price-Monitoring-November-24-2023.pdf
+Basmati,2025-11-15,2026-09-30,285,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-15-2025.pdf
+Jasponica/Japonica,2025-11-15,2026-09-30,285,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-15-2025.pdf
+Well-milleda,2024-02-28,2025-01-15,261,https://www.da.gov.ph/wp-content/uploads/2024/02/Price-Monitoring-February-28-2024.pdf
+Large),2024-05-02,2025-01-15,258,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+"Chicken Egg (White, Extra Small)",2025-01-16,2026-09-28,249,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"LIVESTOCK Chicken Egg (White, Extra Small)",2025-05-17,2026-09-30,249,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+"PRODUCTS Chicken Egg (White, Medium)",2025-05-17,2026-09-30,232,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+"Egg (White, Small) per piece",2024-05-02,2025-01-15,210,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Corn Cracked,2024-06-01,2025-01-15,209,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-1-2024.pdf
+"Egg (White, Pewee)",2024-05-02,2025-01-15,206,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Chicken Egg,2020-11-03,2021-08-31,203,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Regular milled,2020-11-03,2021-08-31,203,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-3-2020.pdf
+Corn (Yellow),2023-11-23,2026-07-01,193,https://www.da.gov.ph/wp-content/uploads/2023/11/Price-Monitoring-November-23-2023.pdf
+"Egg (White, Large) per piece",2024-05-02,2024-12-30,180,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Regular Milledb,2024-02-28,2024-12-13,178,https://www.da.gov.ph/wp-content/uploads/2024/02/Price-Monitoring-February-28-2024.pdf
+"Egg (White, Medium) per piece",2024-05-02,2024-11-16,166,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+"Egg (Brown, Large) per piece",2024-05-02,2024-11-16,165,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Cooking Oil (Palm),2025-03-31,2026-07-01,160,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-March-31-2025.pdf
+Cooking Oil (Coconut),2025-03-31,2026-07-01,157,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-March-31-2025.pdf
+"Egg (White, Jumbo) per piece",2024-05-02,2025-01-15,153,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Premium (RFA5)ᵃ,2025-05-17,2025-11-15,146,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+Regular Milled (RFA100)ᵃ,2025-05-17,2025-11-15,146,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+Well Milled (RFA25)ᵃ,2025-05-17,2025-11-15,146,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-17-2025.pdf
+"Chicken Breast, Local",2025-09-27,2026-07-01,137,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Chicken Leg Quarter,2025-09-27,2026-07-01,136,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Wing, Local",2025-09-27,2026-07-01,136,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Drumstick, Local",2025-09-27,2026-07-01,135,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Whole Chicken, Local",2025-09-27,2026-07-01,135,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"POULTRY Chicken Egg (White, Small)",2025-01-16,2025-09-22,120,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+"Egg (Brown, Medium)",2024-05-02,2025-01-15,118,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Chicken Drumstick,2025-04-06,2025-09-21,109,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Chicken Leg quarter,2025-04-06,2025-09-21,108,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Liempo,2023-09-25,2024-12-05,99,https://www.da.gov.ph/wp-content/uploads/2023/09/Price-Monitoring-September-25-2023.pdf
+"Egg (White, Extra Small)",2024-05-17,2025-01-15,89,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-17-2024.pdf
+Chicken Wing,2025-04-06,2025-09-21,86,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"Egg (Brown, Medium) per piece",2024-05-03,2024-09-04,86,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-3-2024.pdf
+Chicken Breast,2025-04-06,2025-09-21,83,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Corn Grits,2024-06-07,2025-01-15,78,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+"Egg (Brown, Extra Large)",2024-08-14,2025-01-15,76,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-14-2024.pdf
+Salt (Iodized),2025-04-20,2026-07-01,76,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-April-20-2025.pdf
+Salt (Rock),2025-04-20,2026-07-01,76,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-April-20-2025.pdf
+"Egg (White, Jumbo)",2024-05-10,2024-11-16,72,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+Pork Kasim,2024-05-10,2024-11-16,71,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+Glutinous Rice,2025-11-16,2026-07-01,70,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-16-2025.pdf
+(per kg) Regular Milled,2025-07-10,2025-11-14,66,https://www.da.gov.ph/wp-content/uploads/2025/07/Price-Monitoring-July-10-2025.pdf
+Fancy,2025-04-06,2025-09-21,63,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"Egg (White, Extra Small) AND per piece",2024-05-02,2024-09-04,58,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Corn Gritsc,2024-06-12,2024-11-18,53,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-12-2024.pdf
+Corn Grits (White),2024-05-28,2024-12-09,51,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-28-2024.pdf
+*Medium Egg (Itlog),2021-10-26,2021-12-31,46,https://www.da.gov.ph/wp-content/uploads/2021/10/Price-Monitoring-October-26-2021.pdf
+"Beef Brisket, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Chuck, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Flank, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Fore Limb, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Rib Eye, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Rib Set, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Rump, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Short Ribs, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Sirloin, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Striploin, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Tenderloin, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Liver, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Belly (Liempo), Imported",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Belly (Liempo), Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Boston Shoulder, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Chop, Imported",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Chop, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Fore Shank, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Head, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Hind Leg (Pigue), Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Hind Shank, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Loin, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Offals, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Rind/Skin, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Spare Ribs, Local",2025-09-27,2026-07-01,46,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Well-milled Rice (Bigas),2021-10-26,2021-12-31,46,https://www.da.gov.ph/wp-content/uploads/2021/10/Price-Monitoring-October-26-2021.pdf
+Whole Chicken (Manok),2021-10-26,2021-12-31,46,https://www.da.gov.ph/wp-content/uploads/2021/10/Price-Monitoring-October-26-2021.pdf
+"Beef Forequarter, Local",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Feet, Local",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Neck, Local",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Thigh, Local",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Hind Leg (Pigue), Imported",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Offals, Imported",2025-09-27,2026-07-01,45,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Loin, Local",2025-09-27,2026-07-01,44,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Beef Plate, Local",2025-09-27,2026-07-01,44,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Carabeef Meat, Local",2025-09-27,2026-07-01,44,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Rind/Skin, Local",2025-09-27,2026-07-01,44,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Egg (Brown, Large)",2024-11-18,2025-01-15,44,https://www.da.gov.ph/wp-content/uploads/2024/11/Price-Monitoring-November-18-2024.pdf
+"Egg (White, Medium)",2024-11-18,2025-01-15,44,https://www.da.gov.ph/wp-content/uploads/2024/11/Price-Monitoring-November-18-2024.pdf
+Milledb Regular,2024-02-29,2024-12-05,44,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-February-29-2024.pdf
+"Pork Loin, Imported",2025-09-27,2026-07-01,44,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Carabeef Rump Steak, Local",2025-09-27,2026-07-01,43,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Medium, Fresh or Chilled",2025-09-27,2026-07-01,43,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Spare Ribs, Imported",2025-09-27,2026-07-01,42,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Pork Hind Shank, Imported",2025-09-27,2026-07-01,41,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Leg Quarter, Imported",2025-10-12,2026-07-01,39,https://www.da.gov.ph/wp-content/uploads/2025/10/Daily-Price-Index-October-12-2025.pdf
+"Beef Brisket, Imported",2025-09-21,2026-07-01,38,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-21-2025.pdf
+Jasponica/Japonica Rice,2025-11-16,2026-07-01,35,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-16-2025.pdf
+"1,000 ml/bottle",2025-09-27,2026-07-01,34,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Cooking oil (Coconut),2021-08-09,2021-08-31,34,https://www.da.gov.ph/wp-content/uploads/2021/08/Price-Monitoring-August-9-2021.pdf
+Gritsc Corn,2024-06-22,2024-09-30,34,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-22-2024.pdf
+Regular Milledc,2024-05-11,2025-01-14,34,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-11-2024.pdf
+Large)d,2024-06-27,2024-08-31,33,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-27-2024.pdf
+"Pork Fore Shank, Imported",2025-09-27,2026-07-01,33,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Egg (White, Extra Small) per piece",2024-05-25,2024-09-03,32,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-25-2024.pdf
+Pork Belly/Liempo (frozen),2025-04-06,2025-09-21,32,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Chop (fresh or chilled),2025-04-06,2025-09-21,32,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Spareribs (fresh or chilled),2025-04-06,2025-09-21,32,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+B it te rg A la,2024-05-10,2025-01-15,30,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+"LIVESTOCK AND Chicken Egg (White, Extra Small)",2025-07-14,2025-12-10,30,https://www.da.gov.ph/wp-content/uploads/2025/07/Price-Monitoring-July-14-2025.pdf
+Pork Chop (frozen),2025-04-06,2025-09-21,30,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Basmati Rice,2025-11-16,2026-07-01,29,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-16-2025.pdf
+"Beef Tongue, Local",2025-09-27,2026-07-01,29,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Cooking Oil (Spring),2025-04-06,2026-07-01,28,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Frozen Kasim (per kg),2024-12-07,2025-01-15,28,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-7-2024.pdf
+Frozen Liempo (per kg),2024-12-07,2025-01-15,28,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-7-2024.pdf
+Local Chicken Feet,2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+Local Chicken Liver,2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+Local Pork Offals,2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+Local Short Ribs,2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+Medium (150-300 gm),2025-07-27,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+"Pompano, Imported",2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+"Pompano, Local",2025-05-04,2025-09-21,28,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+480.00***,2025-02-06,2025-10-02,27,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-6-2025.pdf
+Local Chicken Thigh,2025-05-11,2025-09-21,27,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+Pork Hind Leg/Pigue (frozen),2025-04-06,2025-09-21,27,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Imported Fore Shank,2025-05-11,2025-09-21,26,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+Local Beef Tongue,2025-05-04,2025-09-21,26,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+"Carabeef Forequarter, Local",2025-09-27,2026-07-01,25,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Egg ( W ite , L arge) ie",2024-10-15,2025-01-15,25,https://www.da.gov.ph/wp-content/uploads/2024/10/Price-Monitoring-October-15-2024.pdf
+Local Pork Rind/Skin,2025-05-23,2025-09-21,25,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+diameter/bunch hd),2025-07-27,2025-09-21,25,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+Imported Beef Chuck,2025-05-23,2025-09-21,24,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Well-milledb,2024-06-07,2025-01-15,24,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Corn Grits (White)c,2024-05-02,2024-06-19,22,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+B is et ),2024-12-07,2025-01-15,20,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-7-2024.pdf
+la,2024-12-07,2025-01-15,20,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-7-2024.pdf
+40.00***,2024-12-04,2025-01-18,19,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-4-2024.pdf
+Baguio Beans,2024-05-10,2024-09-11,19,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+Imported Buffalo Forequarter,2025-05-23,2025-09-21,19,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+NFA (Well milled),2020-11-24,2020-12-28,19,https://www.da.gov.ph/wp-content/uploads/2020/11/Price-Monitoring-November-24-2020.pdf
+"Beef Flank, Imported",2025-09-27,2026-01-18,18,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Imported Tiger Chillies,2025-05-23,2025-09-21,18,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+"Corn Grits (Yellow, Food Grade)",2025-04-22,2026-07-01,17,https://www.da.gov.ph/wp-content/uploads/2025/04/Price-Monitoring-April-22-2025.pdf
+Corn Gritsd,2024-05-04,2024-06-25,17,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-4-2024.pdf
+Local Garlic Bawangg,2024-05-03,2024-06-07,17,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-3-2024.pdf
+330.00***,2025-11-19,2025-12-06,16,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-19-2025.pdf
+"PRODUCTS Chicken Egg (White, Small)",2025-01-30,2025-05-02,16,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-January-30-2025.pdf
+"Salmon Belly, Local",2025-05-04,2025-09-01,16,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+Whole Chicken (fully dressed),2025-04-06,2025-04-27,16,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+chilled),2025-04-06,2025-09-21,16,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+(per kg) Special,2025-01-30,2025-05-02,15,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-January-30-2025.pdf
+14pcs/kg),2025-07-27,2025-09-21,15,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+Cooking Oil (Minola),2025-04-06,2026-03-26,15,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+(Kasim),2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+(atlanto occipital joint).,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+(backbone).,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+(knee joint).,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+Magnolia,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+Milledc Regular,2024-02-28,2025-01-15,14,https://www.da.gov.ph/wp-content/uploads/2024/02/Price-Monitoring-February-28-2024.pdf
+a portion of the back,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+and lumbar vertebrae.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+and other tissues.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+and versatility,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+"attachment to the middle,",2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+chest of the carcass.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+cut approximately 2 inches,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+cut usually passing,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+elbow joint.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+flavor,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+for marbling and flavor,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+from the hind leg by cutting,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+from the hindquarter by,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+hip bone.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+ideal for grilling,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+inches –3 inches from the,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+last backbone.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+last seven back (thoracic),2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+may be separated first from,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+muscles and other tissues.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+prepared from the shoulder,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+shoulder on the shank side.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+skin.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+stews and ground beef.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+the belly.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+tissues.,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+used for steaks,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+with attached meat and,2025-05-04,2025-07-20,14,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-May-4-2025.pdf
+without a wing; Magnolia,2025-07-27,2025-09-21,14,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+180.00***,2025-08-14,2026-01-05,13,https://www.da.gov.ph/wp-content/uploads/2025/08/Price-Monitoring-August-14-2025.pdf
+"AND Egg (White, Extra Small)",2024-09-09,2024-11-14,13,https://www.da.gov.ph/wp-content/uploads/2024/09/Price-Monitoring-September-9-2024.pdf
+Corn (White) Glutinousc,2024-04-16,2024-06-10,13,https://www.da.gov.ph/wp-content/uploads/2024/04/Price-Monitoring-April-16-2024.pdf
+Pork Spareribs (frozen),2025-04-06,2025-09-01,13,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"cow, known for tenderness",2025-05-11,2025-07-20,13,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+for rendering or snacks,2025-07-27,2025-09-14,13,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+known for leanness and,2025-05-11,2025-07-20,13,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+"Carabeef Trimmings, Local",2025-10-12,2025-12-21,12,https://www.da.gov.ph/wp-content/uploads/2025/10/Daily-Price-Index-October-12-2025.pdf
+"Corn Grits (White, Food Grade)",2025-04-22,2026-07-01,12,https://www.da.gov.ph/wp-content/uploads/2025/04/Price-Monitoring-April-22-2025.pdf
+"Egg (White, Extra Large)",2024-08-17,2024-11-18,12,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+Small),2024-05-10,2024-09-11,12,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+Special Rice,2025-10-12,2025-11-09,12,https://www.da.gov.ph/wp-content/uploads/2025/10/Daily-Price-Index-October-12-2025.pdf
+300.00***,2025-08-15,2025-12-15,11,https://www.da.gov.ph/wp-content/uploads/2025/08/Price-Monitoring-August-15-2025.pdf
+Corn Grits (White)d,2024-05-11,2024-05-24,11,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-11-2024.pdf
+Crackede Corn,2024-05-11,2024-05-24,11,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-11-2024.pdf
+"Egg (Brown, Extra Large)c",2024-10-08,2024-11-05,11,https://www.da.gov.ph/wp-content/uploads/2024/10/Price-Monitoring-October-8-2024.pdf
+"muscles, and other tissues.",2025-07-27,2025-09-14,11,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+"steaks, and ground meat",2025-07-27,2025-09-21,11,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-27-2025.pdf
+ventrally following the,2025-05-23,2025-07-20,11,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+"(per kg) Corn Cracked (Yellow, Feed Grade)",2025-01-21,2025-02-05,10,https://www.da.gov.ph/wp-content/uploads/2025/01/Revised-Price-Monitoring-January-21-2025.pdf
+Special/Fancy,2025-09-27,2025-10-05,10,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+(per kg) Corn Grits (Feed Grade),2025-05-22,2025-12-03,9,https://www.da.gov.ph/wp-content/uploads/2025/05/Price-Monitoring-May-22-2025.pdf
+38.00****,2024-12-30,2025-01-18,9,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-December-30-2024.pdf
+C rn G its ( W te ),2024-11-19,2024-12-04,9,https://www.da.gov.ph/wp-content/uploads/2024/11/Price-Monitoring-November-19-2024.pdf
+Gritsf Corn,2024-05-11,2024-05-23,9,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-11-2024.pdf
+Imported Chicken Neck,2025-05-18,2025-09-21,9,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-18-2025.pdf
+from the hindquarter by a,2025-05-11,2025-06-29,8,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+220.00***,2025-11-14,2026-01-10,7,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-14-2025.pdf
+320.00****,2025-09-11,2025-11-25,7,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-11-2025.pdf
+80.00***,2024-03-01,2024-04-30,7,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-1-2024.pdf
+"Beef Chuck, Imported",2025-09-27,2026-01-25,7,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Neck, Imported",2025-09-27,2026-05-17,7,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Imported Chicken Thigh,2025-05-11,2025-09-21,7,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+Imported Pork Loin,2025-05-23,2025-09-01,7,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+),2024-05-10,2024-11-06,6,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+18.00***,2024-07-12,2025-04-26,6,https://www.da.gov.ph/wp-content/uploads/2024/07/Price-Monitoring-July-12-2024.pdf
+180.00****,2026-01-06,2026-01-14,6,https://www.da.gov.ph/wp-content/uploads/2026/01/Price-Monitoring-January-6-2026.pdf
+Corn Gritse,2024-05-02,2024-06-03,6,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Crackedc Corn,2024-05-04,2024-05-31,6,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-4-2024.pdf
+Crackedd Corn,2024-05-03,2024-06-03,6,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-3-2024.pdf
+Imported Beef Flank,2025-05-23,2025-09-01,6,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Imported Beef Striploin,2025-07-19,2025-09-01,6,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-19-2025.pdf
+Imported Pork Offals,2025-07-19,2025-09-01,6,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-19-2025.pdf
+"Pork Picnic Shoulder (Kasim),",2026-05-24,2026-06-28,6,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-24-2026.pdf
+Tanigue,2026-05-03,2026-07-01,6,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-3-2026.pdf
+Well-milled*,2021-09-27,2024-01-11,6,https://www.da.gov.ph/wp-content/uploads/2021/09/Price-Monitoring-September-27-2021.pdf
+***100.00,2024-05-13,2024-05-18,5,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-13-2024.pdf
+"Egg (Brown, Extra Large)d",2024-10-03,2024-11-06,5,https://www.da.gov.ph/wp-content/uploads/2024/10/Price-Monitoring-October-3-2024.pdf
+brand),2025-07-28,2025-09-01,5,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-28-2025-1.pdf
+per ),2024-10-15,2024-11-06,5,https://www.da.gov.ph/wp-content/uploads/2024/10/Price-Monitoring-October-15-2024.pdf
+(frozen),2025-07-28,2025-08-30,4,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-28-2025-1.pdf
+", M edium) ce",2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+160.00****,2026-01-09,2026-01-16,4,https://www.da.gov.ph/wp-content/uploads/2026/01/Price-Monitoring-January-9-2026.pdf
+280.00****,2025-12-06,2025-12-13,4,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-6-2025.pdf
+320.00***,2025-08-06,2025-12-09,4,https://www.da.gov.ph/wp-content/uploads/2025/08/Price-Monitoring-August-6-2025.pdf
+37.00***,2025-01-15,2025-02-04,4,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-15-2025.pdf
+38.00***,2024-12-27,2025-01-04,4,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-December-27-2024.pdf
+39.00***,2024-12-21,2024-12-26,4,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-December-21-2024.pdf
+480.00****,2025-02-13,2025-08-20,4,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-13-2025.pdf
+Beef Chuck,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"Beef Rump, Imported",2025-11-06,2026-07-01,4,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-6-2025.pdf
+Beef Short Ribs,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Beef Sirloin,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Beef T-Bone Steak,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"Bell Pepper (Red), Imported",2025-05-23,2025-08-30,4,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Cooking Oil (Palm Olein) (Jolly brand),2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Gritsd Corn,2024-05-31,2024-09-02,4,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-31-2024.pdf
+Large)c,2024-07-27,2024-11-27,4,https://www.da.gov.ph/wp-content/uploads/2024/07/Price-Monitoring-July-27-2024.pdf
+"Lettuce, Imported",2025-05-18,2026-06-07,4,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-18-2025.pdf
+"Mackerel, Local",2026-04-05,2026-04-26,4,https://www.da.gov.ph/wp-content/uploads/2026/04/Daily-Price-Index-April-5-2026.pdf
+Pompano,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Ham/Kasim (fresh or chilled),2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Ham/Kasim (frozen),2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Pork Hind Leg/Pigue (fresh or chilled),2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+R kg ),2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+Salmon Belly,2025-04-06,2025-04-27,4,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+"Tambakol (Yellow-Fin Tuna),",2026-05-24,2026-06-28,4,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-24-2026.pdf
+ato,2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+"ite , L arge) ie",2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+lic,2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+po g),2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+sh sa,2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+side which is separated,2025-07-06,2025-07-20,4,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-July-6-2025.pdf
+sssTanigue,2026-05-24,2026-06-14,4,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-24-2026.pdf
+te,2024-08-17,2024-08-22,4,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-17-2024.pdf
+*Egg (Medium),2022-01-03,2024-03-04,3,https://www.da.gov.ph/wp-content/uploads/2022/01/Price-Monitoring-January-3-2022.pdf
+170.00***,2025-12-29,2025-12-31,3,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-29-2025.pdf
+190.00***,2025-11-01,2026-01-16,3,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-1-2025.pdf
+200.00***,2026-01-12,2026-01-14,3,https://www.da.gov.ph/wp-content/uploads/2026/01/Price-Monitoring-January-12-2026.pdf
+240.00***,2025-01-21,2025-01-23,3,https://www.da.gov.ph/wp-content/uploads/2025/01/Revised-Price-Monitoring-January-21-2025.pdf
+260.00****,2025-09-12,2025-12-15,3,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-12-2025.pdf
+280.00***,2025-10-13,2025-12-16,3,https://www.da.gov.ph/wp-content/uploads/2025/10/Price-Monitoring-October-13-2025.pdf
+300.00****,2025-12-10,2025-12-12,3,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-10-2025.pdf
+40.00****,2024-12-05,2024-12-13,3,https://www.da.gov.ph/wp-content/uploads/2024/12/Revised-Price-Monitoring-December-5-2024.pdf
+50.00***,2024-04-17,2025-05-31,3,https://www.da.gov.ph/wp-content/uploads/2024/04/Price-Monitoring-April-17-2024.pdf
+8.00***,2024-07-15,2024-08-16,3,https://www.da.gov.ph/wp-content/uploads/2024/07/Price-Monitoring-July-15-2024.pdf
+"Bell Pepper (Green), Imported",2025-09-07,2025-10-03,3,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-7-2025.pdf
+"Chicken Drumstick, Imported",2026-05-17,2026-07-01,3,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+"Chicken Liver, Imported",2026-05-17,2026-07-01,3,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+"Chicken Thigh, Imported",2026-05-17,2026-07-01,3,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+"Chicken Wing, Imported",2026-05-17,2026-07-01,3,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+Corn Crackedd,2024-05-02,2024-05-10,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Corn Grits (Yellow),2024-05-02,2024-12-16,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-2-2024.pdf
+Corn Gritsf,2024-05-09,2024-05-24,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-9-2024.pdf
+"Egg (White, Extra Small) per piece AND",2024-05-08,2024-06-25,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-8-2024.pdf
+"Egg (White, Pewee) per piece",2024-05-23,2024-08-28,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-23-2024.pdf
+Ginger (Local),2025-04-06,2025-04-27,3,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Gritse Corn,2024-05-06,2024-05-17,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-6-2024.pdf
+Imported Chicken Feet,2025-05-23,2025-06-01,3,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Imported White Onion size)e (Medium,2024-05-04,2024-07-29,3,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-4-2024.pdf
+Medium (8-10 cm,2026-06-21,2026-06-28,3,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-21-2026.pdf
+Pork Belly/Liempo (fresh or chilled),2025-04-06,2025-04-20,3,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Regular Milleda,2023-03-06,2024-10-31,3,https://www.da.gov.ph/wp-content/uploads/2023/03/Price-Monitoring-March-6-2023.pdf
+"Tiger Chillies, Imported",2025-09-27,2026-07-01,3,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Well-milled Rice (Local),2022-01-03,2024-03-04,3,https://www.da.gov.ph/wp-content/uploads/2022/01/Price-Monitoring-January-3-2022.pdf
+"of Buffalo, often used for",2025-05-23,2025-06-01,3,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+****100.00,2024-05-17,2024-05-20,2,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-17-2024.pdf
+***120.00,2024-05-22,2024-05-23,2,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-22-2024.pdf
+***35.00,2024-05-20,2024-05-21,2,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-20-2024.pdf
+250.00***,2025-01-31,2025-02-05,2,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-January-31-2025.pdf
+250.00****,2025-02-04,2025-02-06,2,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-4-2025.pdf
+260.00***,2025-07-07,2025-07-10,2,https://www.da.gov.ph/wp-content/uploads/2025/07/Price-Monitoring-July-7-2025.pdf
+305.00***,2024-06-13,2024-06-14,2,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-13-2024.pdf
+37.00****,2025-01-16,2025-01-17,2,https://www.da.gov.ph/wp-content/uploads/2025/01/Price-Monitoring-January-16-2025.pdf
+470.00***,2025-03-13,2025-03-14,2,https://www.da.gov.ph/wp-content/uploads/2025/03/Price-Monitoring-March-13-2025.pdf
+90.00***,2024-03-14,2024-03-20,2,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-14-2024.pdf
+Balld Wonder,2024-03-08,2024-03-26,2,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-8-2024.pdf
+Ballf Wonder,2024-02-28,2024-02-29,2,https://www.da.gov.ph/wp-content/uploads/2024/02/Price-Monitoring-February-28-2024.pdf
+"Beef Fore Limb, Imported",2026-01-11,2026-01-25,2,https://www.da.gov.ph/wp-content/uploads/2026/01/Daily-Price-Index-January-11-2026.pdf
+"Beef Forequarter, Imported",2026-01-11,2026-01-25,2,https://www.da.gov.ph/wp-content/uploads/2026/01/Daily-Price-Index-January-11-2026.pdf
+"Beef Loin, Imported",2026-01-11,2026-01-25,2,https://www.da.gov.ph/wp-content/uploads/2026/01/Daily-Price-Index-January-11-2026.pdf
+"Beef Plate, Imported",2026-01-11,2026-01-25,2,https://www.da.gov.ph/wp-content/uploads/2026/01/Daily-Price-Index-January-11-2026.pdf
+"Beef Rib Eye, Imported",2026-06-28,2026-07-01,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-28-2026.pdf
+"Beef Rib Set, Imported",2026-06-28,2026-07-01,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-28-2026.pdf
+"Beef Tenderloin, Imported",2025-11-06,2025-11-23,2,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-6-2025.pdf
+"Cauliflower, Imported",2025-09-27,2025-10-04,2,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+"Chicken Breast, Imported",2026-06-28,2026-07-01,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-28-2026.pdf
+"Chicken Egg (Brown, Extra Large) Extra Large",2025-03-31,2025-05-01,2,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-March-31-2025.pdf
+"Cooking Oil (Palm Olein, Jolly",2026-06-21,2026-06-28,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-21-2026.pdf
+"Duck Meat, Local",2025-10-03,2026-05-17,2,https://www.da.gov.ph/wp-content/uploads/2025/10/Daily-Price-Index-October-3-2025.pdf
+"Fairly well-matured, Medium",2026-06-21,2026-06-21,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-21-2026.pdf
+"Fresh, Loose, Medium (150-",2026-06-28,2026-06-28,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-28-2026.pdf
+Ginger (Imported),2025-04-06,2025-04-20,2,https://www.da.gov.ph/wp-content/uploads/2025/04/Revised-Daily-Price-Index-April-6-2025.pdf
+Habichuelas (Baguio Beans),2025-03-31,2025-05-01,2,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-March-31-2025.pdf
+Imported Beef Loin,2025-05-11,2025-05-18,2,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+Imported Buffalo Meat,2025-05-11,2025-05-18,2,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-11-2025.pdf
+Imported Red Onion,2023-03-10,2023-03-13,2,https://www.da.gov.ph/wp-content/uploads/2023/03/Price-Monitoring-March-10-2023.pdf
+Imported White Onion size)f (Medium,2024-05-03,2024-05-07,2,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-3-2024.pdf
+Imported Whited Onion (Medium size),2024-09-05,2024-09-07,2,https://www.da.gov.ph/wp-content/uploads/2024/09/Price-Monitoring-September-5-2024.pdf
+"LIVESTOCK AND Chicken Egg (White, Pewee)",2025-12-08,2025-12-09,2,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-8-2025.pdf
+"LIVESTOCK AND Egg (White, Extra Small)",2024-10-31,2024-11-11,2,https://www.da.gov.ph/wp-content/uploads/2024/11/Price-Monitoring-October-31-2024.pdf
+Local Garlic Bawan,2023-08-28,2023-12-18,2,https://www.da.gov.ph/wp-content/uploads/2023/08/Price-Monitoring-August-28-2023.pdf
+Local Mackerel,2025-06-22,2025-08-03,2,https://www.da.gov.ph/wp-content/uploads/2025/06/Daily-Price-Index-June-22-2025.pdf
+"Mackerel, Imported",2025-09-27,2025-11-30,2,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-27-2025.pdf
+Medium (301-450 cm,2026-06-21,2026-06-28,2,https://www.da.gov.ph/wp-content/uploads/2026/06/Daily-Price-Index-June-21-2026.pdf
+"Medium, Frozen",2025-11-16,2025-12-21,2,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-16-2025.pdf
+"Pork Head, Imported",2025-11-06,2026-03-26,2,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-6-2025.pdf
+"Whole Chicken, Imported",2025-10-03,2026-05-17,2,https://www.da.gov.ph/wp-content/uploads/2025/10/Daily-Price-Index-October-3-2025.pdf
+grams),2025-04-13,2025-04-13,2,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-April-13-2025.pdf
+(White)c,2024-06-25,2024-06-25,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-25-2024.pdf
+(per kg) Other Special Rice,2025-11-15,2025-11-15,1,https://www.da.gov.ph/wp-content/uploads/2025/11/Price-Monitoring-November-15-2025.pdf
+****110.00,2024-05-21,2024-05-21,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-21-2024.pdf
+***6.00,2024-05-17,2024-05-17,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-17-2024.pdf
+100*,2024-05-08,2024-05-08,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-8-2024.pdf
+100.00***,2024-05-06,2024-05-06,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-6-2024.pdf
+15.00***,2025-04-11,2025-04-11,1,https://www.da.gov.ph/wp-content/uploads/2025/04/Price-Monitoring-April-11-2025.pdf
+160.00***,2026-01-01,2026-01-01,1,https://www.da.gov.ph/wp-content/uploads/2026/01/Price-Monitoring-January-1-2026.pdf
+170.00****,2026-01-03,2026-01-03,1,https://www.da.gov.ph/wp-content/uploads/2026/01/Price-Monitoring-January-3-2026.pdf
+18.00**-,2024-07-13,2024-07-13,1,https://www.da.gov.ph/wp-content/uploads/2024/07/Price-Monitoring-July-13-2024.pdf
+20.00***,2025-02-24,2025-02-24,1,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-24-2025.pdf
+240.00****,2025-01-20,2025-01-20,1,https://www.da.gov.ph/wp-content/uploads/2025/01/Revised-Price-Monitoring-January-20-2025.pdf
+290.00***,2025-10-11,2025-10-11,1,https://www.da.gov.ph/wp-content/uploads/2025/10/Price-Monitoring-October-11-2025.pdf
+310.00***,2025-08-07,2025-08-07,1,https://www.da.gov.ph/wp-content/uploads/2025/08/Price-Monitoring-August-7-2025.pdf
+340.00****,2025-09-10,2025-09-10,1,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-10-2025.pdf
+35.00***,2025-02-13,2025-02-13,1,https://www.da.gov.ph/wp-content/uploads/2025/02/Price-Monitoring-February-13-2025.pdf
+350.00***,2025-09-26,2025-09-26,1,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-26-2025.pdf
+400.00***,2025-09-25,2025-09-25,1,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-25-2025.pdf
+450**,2026-02-28,2026-02-28,1,https://www.da.gov.ph/wp-content/uploads/2026/03/Price-Monitoring-February-28-2026.pdf
+5.50***,2024-04-08,2024-04-08,1,https://www.da.gov.ph/wp-content/uploads/2024/04/Price-Monitoring-April-8-2024.pdf
+5.80***,2024-03-15,2024-03-15,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-15-2024.pdf
+50.00****,2024-04-17,2024-04-17,1,https://www.da.gov.ph/wp-content/uploads/2024/04/Price-Monitoring-April-17-2024.pdf
+60.00***,2025-06-02,2025-06-02,1,https://www.da.gov.ph/wp-content/uploads/2025/06/Price-Monitoring-June-2-2025.pdf
+90.00g,2024-03-15,2024-03-15,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-15-2024.pdf
+900.00****,2025-09-08,2025-09-08,1,https://www.da.gov.ph/wp-content/uploads/2025/09/Price-Monitoring-September-8-2025.pdf
+Beef Rump (per kg,2024-01-10,2024-01-10,1,https://www.da.gov.ph/wp-content/uploads/2024/01/Price-Monitoring-January-10-2024.pdf
+Beef Rump; Imported,2025-09-21,2025-09-21,1,https://www.da.gov.ph/wp-content/uploads/2025/09/Daily-Price-Index-September-21-2025.pdf
+C ili Siling ab uyo,2024-03-27,2024-03-27,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-27-2024.pdf
+"Cabbage, Imported",2025-11-06,2025-11-06,1,https://www.da.gov.ph/wp-content/uploads/2025/11/Daily-Price-Index-November-6-2025.pdf
+"Chicken Feet, Imported",2026-05-17,2026-05-17,1,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+"Chicken Rind/Skin, Imported",2026-05-17,2026-05-17,1,https://www.da.gov.ph/wp-content/uploads/2026/05/Daily-Price-Index-May-17-2026.pdf
+Chili OT AVANILOATB ALVEAILABLE Siling labuyo,2022-08-19,2022-08-19,1,https://www.da.gov.ph/wp-content/uploads/2022/08/Price-Monitoring-August-19-2022.pdf
+Corn Crackedc,2024-09-02,2024-09-02,1,https://www.da.gov.ph/wp-content/uploads/2024/09/Price-Monitoring-September-2-2024.pdf
+Corn Crackede,2024-05-09,2024-05-09,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-9-2024.pdf
+Corn Crackedf,2024-06-07,2024-06-07,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Corn Grits (White)b,2024-08-26,2024-08-26,1,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-26-2024.pdf
+Corn Grits (White)e,2024-06-07,2024-06-07,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Corn Grits (Yellow)d,2024-05-09,2024-05-09,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-9-2024.pdf
+Corn Gritsb,2024-07-27,2024-07-27,1,https://www.da.gov.ph/wp-content/uploads/2024/07/Price-Monitoring-July-27-2024.pdf
+"Egg (Brown, Extra Large)b",2024-10-31,2024-10-31,1,https://www.da.gov.ph/wp-content/uploads/2024/11/Price-Monitoring-October-31-2024.pdf
+"Egg (Brown, Medium) 420.00*** per piece",2024-06-15,2024-06-15,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-15-2024.pdf
+"Egg (White, Extra Small) AND",2024-08-07,2024-08-07,1,https://www.da.gov.ph/wp-content/uploads/2024/08/Price-Monitoring-August-7-2024.pdf
+G ts ),2024-05-10,2024-05-10,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+Gingerh Luya,2024-06-07,2024-06-07,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Imported Chicken Liver,2025-05-23,2025-05-23,1,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Imported Pork Boston Shoulder,2025-05-23,2025-05-23,1,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-May-23-2025.pdf
+Imported Red Onion size)c (Big,2023-03-06,2023-03-06,1,https://www.da.gov.ph/wp-content/uploads/2023/03/Price-Monitoring-March-6-2023.pdf
+Imported Scad Galunggong,2023-10-03,2023-10-03,1,https://www.da.gov.ph/wp-content/uploads/2023/10/Price-Monitoring-October-3-2023.pdf
+Imported White Onion size)d (Medium,2024-09-04,2024-09-04,1,https://www.da.gov.ph/wp-content/uploads/2024/09/Price-Monitoring-September-4-2024.pdf
+Imported White Onion size)g (Medium,2024-05-09,2024-05-09,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-9-2024.pdf
+Imported White size)d Onion (Big,2023-03-06,2023-03-06,1,https://www.da.gov.ph/wp-content/uploads/2023/03/Price-Monitoring-March-6-2023.pdf
+Large) per piece,2024-05-23,2024-05-23,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-23-2024.pdf
+Local Garlic (Bawang) B,2026-04-11,2026-04-11,1,https://www.da.gov.ph/wp-content/uploads/2026/04/Price-Monitoring-April-11-2026.pdf
+Local Garlic Bawangh,2024-05-09,2024-05-09,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-9-2024.pdf
+Local Red Onion,2024-01-10,2024-01-10,1,https://www.da.gov.ph/wp-content/uploads/2024/01/Price-Monitoring-January-10-2024.pdf
+"POULTRY Chicken Egg (White, Extra Small)",2025-12-03,2025-12-03,1,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-3-2025.pdf
+"POULTRY Chicken Egg (White, Medium)",2025-12-05,2025-12-05,1,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-5-2025.pdf
+"PRODUCTS Chicken Egg (White, Extra Small)",2025-12-08,2025-12-08,1,https://www.da.gov.ph/wp-content/uploads/2025/12/Price-Monitoring-December-8-2025.pdf
+Pewee),2024-06-14,2024-06-14,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-14-2024.pdf
+Premiuma,2024-06-07,2024-06-07,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Regular Milledd,2024-06-07,2024-06-07,1,https://www.da.gov.ph/wp-content/uploads/2024/06/Price-Monitoring-June-7-2024.pdf
+Sardines (Tamban) C,2024-11-30,2024-11-30,1,https://www.da.gov.ph/wp-content/uploads/2024/12/Price-Monitoring-November-30-2024.pdf
+Scad Galunggong,2023-03-10,2023-03-10,1,https://www.da.gov.ph/wp-content/uploads/2023/03/Price-Monitoring-March-10-2023.pdf
+T K ma,2024-03-27,2024-03-27,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-27-2024.pdf
+Whited Imported Onion (Medium size),2024-09-06,2024-09-06,1,https://www.da.gov.ph/wp-content/uploads/2024/09/Price-Monitoring-September-6-2024.pdf
+Yellow-Fin Tuna/Tambakol (fresh or,2025-04-20,2025-04-20,1,https://www.da.gov.ph/wp-content/uploads/2025/05/Daily-Price-Index-April-20-2025.pdf
+pork carcass after its,2025-06-29,2025-06-29,1,https://www.da.gov.ph/wp-content/uploads/2025/07/Daily-Price-Index-June-29-2025.pdf
+"te , L arge) ie",2024-05-10,2024-05-10,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+um),2024-03-27,2024-03-27,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-27-2024.pdf
+yo te yo te,2024-05-10,2024-05-10,1,https://www.da.gov.ph/wp-content/uploads/2024/05/Price-Monitoring-May-10-2024.pdf
+ze ),2024-03-27,2024-03-27,1,https://www.da.gov.ph/wp-content/uploads/2024/03/Price-Monitoring-March-27-2024.pdf

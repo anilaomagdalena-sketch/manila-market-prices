@@ -33,3 +33,20 @@ def test_normalize():
     assert normalize("  Local  Garlic   Bawang**  ") == "local garlic bawang"
     assert normalize("Beef Rump (per kg)") == "beef rump"
     assert normalize("Squid (Pusit Bisaya), Local") == "squid (pusit bisaya)"
+
+
+@pytest.mark.parametrize("raw, expected", [
+    ("Mung Bean", "mung_bean"),
+    ("Mungbean", "mung_bean"),
+    ("Salmon Belly, Imported", "salmon_belly_imported"),
+    ("Salmon Head, Imported", "salmon_head"),
+    ("Broccoli, Imported", "broccoli_imported"),
+    ("Squid, Imported", "squid_imported"),
+    ("Pampano, Imported", "pampano_imported"),
+    ("Pampano, Local", "pampano_local"),
+    ("Ginger, Imported", "ginger_imported"),
+    ("Carrots, Imported", "carrot_imported"),
+    ("Habichuelas (Baguio beans), local", "baguio_beans"),
+])
+def test_author_approved_unmapped_names(raw, expected):
+    assert NM.lookup(raw) == expected

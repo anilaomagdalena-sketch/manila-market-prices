@@ -1,0 +1,4 @@
+date,commodity_id,value,previous,reason,source_url
+2022-12-29,alumahan,0,320,non_positive,https://www.da.gov.ph/wp-content/uploads/2022/12/Price-Monitoring-December-29-2022.pdf
+2023-02-17,garlic_local,0,400,non_positive,https://www.da.gov.ph/wp-content/uploads/2023/02/Price-Monitoring-February-17-2023.pdf
+2023-10-06,red_onion_imported,0,110,non_positive,https://www.da.gov.ph/wp-content/uploads/2023/10/Price-Monitoring-October-6-2023.pdf

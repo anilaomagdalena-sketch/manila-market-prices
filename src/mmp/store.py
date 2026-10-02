@@ -58,19 +58,38 @@ class DailyStore(_DateStore):
     fields = DAILY_FIELDS
     sort_fields = ("date", "commodity_id")
 
+    def __init__(self, path: Path):
+        super().__init__(path)
+        self._last_before = None
+        self._last_values = {}
+
+    def replace_date(self, date: str, rows: list[dict]) -> None:
+        super().replace_date(date, rows)
+        self._last_before = None
+
     def dates_with_source(self, url: str) -> set[str]:
         return {row["date"] for row in self._rows if row["source_url"] == url}
 
     def last_price(self, commodity_id: str, before: str) -> float | None:
-        for row in reversed(self.rows()):
-            if row["date"] >= before or row["commodity_id"] != commodity_id:
-                continue
-            for field in ("prevailing", "average"):
-                if row[field] != "":
-                    return float(row[field])
-            if row["low"] != "" and row["high"] != "":
-                return (float(row["low"]) + float(row["high"])) / 2
-        return None
+        if self._last_before != before:
+            latest = {}
+            for row in self._rows:
+                if row["date"] >= before:
+                    continue
+                value = None
+                for field in ("prevailing", "average"):
+                    if row[field] != "":
+                        value = float(row[field])
+                        break
+                if value is None and row["low"] != "" and row["high"] != "":
+                    value = (float(row["low"]) + float(row["high"])) / 2
+                if value is not None:
+                    old = latest.get(row["commodity_id"])
+                    if old is None or row["date"] >= old[0]:
+                        latest[row["commodity_id"]] = (row["date"], value)
+            self._last_values = {cid: value for cid, (_, value) in latest.items()}
+            self._last_before = before
+        return self._last_values.get(commodity_id)
 
 
 class MarketStore(_DateStore):
@@ -92,6 +111,12 @@ class UnmappedLog:
             row["last_date"] = max(row["last_date"], date)
             row["count"] = str(int(row["count"]) + 1)
 
+    def retire_mapped(self, lookup, start: str | None, end: str | None) -> None:
+        self._rows = {name: row for name, row in self._rows.items()
+                      if not (lookup(name) is not None
+                              and (start is None or row["first_date"] >= start)
+                              and (end is None or row["last_date"] <= end))}
+
     def save(self) -> None:
         rows = sorted(self._rows.values(), key=lambda row: (-int(row["count"]), row["raw_name"]))
         _save(self.path, UNMAPPED_FIELDS, rows)
@@ -104,6 +129,9 @@ class RejectedLog:
 
     def add(self, date: str, commodity_id: str, value: float, previous: float | None, reason: str, source_url: str) -> None:
         self._rows.append(dict(date=date, commodity_id=commodity_id, value=fmt(value), previous=fmt(previous), reason=reason, source_url=source_url))
+
+    def remove_source(self, url: str) -> None:
+        self._rows = [row for row in self._rows if row["source_url"] != url]
 
     def save(self) -> None:
         rows = sorted(self._rows, key=lambda row: (row["date"], row["commodity_id"], row["source_url"]))
