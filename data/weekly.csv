@@ -150,14 +150,14 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,ampalaya,210,190,220,market,5
 2026-09-14,cartimar,ampalaya,170,160,190,market,5
 2026-09-21,cartimar,ampalaya,170,160,180,market,4
-2026-09-28,cartimar,ampalaya,167.5,150,180,market,4
+2026-09-28,cartimar,ampalaya,157,115,180,market,5
 2026-08-17,cartimar,bangus,250,250,250,market,4
 2026-08-24,cartimar,bangus,250,250,250,market,5
 2026-08-31,cartimar,bangus,250,250,250,market,5
 2026-09-07,cartimar,bangus,250,250,250,market,5
 2026-09-14,cartimar,bangus,250,250,250,market,5
 2026-09-21,cartimar,bangus,250,250,250,market,4
-2026-09-28,cartimar,bangus,250,250,250,market,4
+2026-09-28,cartimar,bangus,253,250,265,market,5
 2025-02-03,cartimar,cabbage,72.5,60,85,market,2
 2025-02-10,cartimar,cabbage,68.33,60,80,market,3
 2025-02-17,cartimar,cabbage,44.17,35,50,market,6
@@ -244,7 +244,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,cabbage,164,160,180,market,5
 2026-09-14,cartimar,cabbage,194,190,200,market,5
 2026-09-21,cartimar,cabbage,190,180,200,market,4
-2026-09-28,cartimar,cabbage,180,150,210,market,4
+2026-09-28,cartimar,cabbage,180,150,210,market,5
 2024-01-08,cartimar,cabbage_rareball,36.5,35,38,market,1
 2024-01-15,cartimar,cabbage_rareball,40,40,40,market,1
 2024-02-05,cartimar,cabbage_rareball,35,35,35,market,1
@@ -354,35 +354,35 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,calamansi,120,120,120,market,5
 2026-09-14,cartimar,calamansi,111,105,120,market,5
 2026-09-21,cartimar,calamansi,101.25,100,105,market,4
-2026-09-28,cartimar,calamansi,98.75,95,100,market,4
+2026-09-28,cartimar,calamansi,99,95,100,market,5
 2026-08-17,cartimar,carrot,117.5,90,140,market,4
 2026-08-24,cartimar,carrot,135,90,140,market,5
 2026-08-31,cartimar,carrot,112,90,130,market,5
 2026-09-07,cartimar,carrot,120,120,120,market,5
 2026-09-14,cartimar,carrot,120,120,120,market,5
 2026-09-21,cartimar,carrot,127.5,120,130,market,4
-2026-09-28,cartimar,carrot,127.5,110,140,market,4
+2026-09-28,cartimar,carrot,126,110,140,market,5
 2026-08-17,cartimar,chayote,65,50,80,market,4
 2026-08-24,cartimar,chayote,64,60,80,market,5
 2026-08-31,cartimar,chayote,94,85,110,market,5
 2026-09-07,cartimar,chayote,118,110,120,market,5
 2026-09-14,cartimar,chayote,108,100,120,market,5
 2026-09-21,cartimar,chayote,116.25,100,125,market,4
-2026-09-28,cartimar,chayote,112.5,90,120,market,4
+2026-09-28,cartimar,chayote,108,90,120,market,5
 2026-08-17,cartimar,chili_green,156.25,130,200,market,4
 2026-08-24,cartimar,chili_green,189,130,220,market,5
 2026-08-31,cartimar,chili_green,204,200,210,market,5
 2026-09-07,cartimar,chili_green,192,180,200,market,5
 2026-09-14,cartimar,chili_green,210,200,220,market,5
 2026-09-21,cartimar,chili_green,222.5,210,250,market,4
-2026-09-28,cartimar,chili_green,205,200,210,market,4
+2026-09-28,cartimar,chili_green,204,200,210,market,5
 2026-08-17,cartimar,chili_red,110,100,120,market,4
 2026-08-24,cartimar,chili_red,162,100,190,market,5
 2026-08-31,cartimar,chili_red,181,180,185,market,5
 2026-09-07,cartimar,chili_red,193,165,200,market,5
 2026-09-14,cartimar,chili_red,167,150,180,market,5
 2026-09-21,cartimar,chili_red,223.75,175,250,market,4
-2026-09-28,cartimar,chili_red,195,180,200,market,4
+2026-09-28,cartimar,chili_red,196,180,200,market,5
 2025-02-03,cartimar,eggplant,120,100,140,market,1
 2025-02-10,cartimar,eggplant,106.67,80,120,market,3
 2025-02-17,cartimar,eggplant,94.17,80,110,market,6
@@ -469,7 +469,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,eggplant,172,150,180,market,5
 2026-09-14,cartimar,eggplant,142,140,145,market,5
 2026-09-21,cartimar,eggplant,140,140,140,market,4
-2026-09-28,cartimar,eggplant,133.75,120,145,market,4
+2026-09-28,cartimar,eggplant,131,120,145,market,5
 2023-11-06,cartimar,galunggong_local,282,280,300,market,5
 2023-11-13,cartimar,galunggong_local,258.75,250,260,market,4
 2023-11-20,cartimar,galunggong_local,290,260,300,market,4
@@ -552,7 +552,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,galunggong_local,350,350,350,market,5
 2026-09-14,cartimar,galunggong_local,350,350,350,market,5
 2026-09-21,cartimar,galunggong_local,350,350,350,market,4
-2026-09-28,cartimar,galunggong_local,357.5,350,365,market,4
+2026-09-28,cartimar,galunggong_local,356,350,365,market,5
 2023-11-06,cartimar,pechay_baguio,49.38,40,80,market,4
 2023-11-13,cartimar,pechay_baguio,40,30,50,market,5
 2023-11-20,cartimar,pechay_baguio,46.88,40,50,market,4
@@ -625,14 +625,14 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,pechay_baguio,200,200,200,market,5
 2026-09-14,cartimar,pechay_baguio,235.4,180,250,market,5
 2026-09-21,cartimar,pechay_baguio,207.25,180,249,market,4
-2026-09-28,cartimar,pechay_baguio,172.5,150,190,market,4
+2026-09-28,cartimar,pechay_baguio,164,130,190,market,5
 2026-08-17,cartimar,potato,142.5,110,170,market,4
 2026-08-24,cartimar,potato,133,110,160,market,5
 2026-08-31,cartimar,potato,148,130,180,market,5
 2026-09-07,cartimar,potato,174,150,180,market,5
 2026-09-14,cartimar,potato,132,130,140,market,5
 2026-09-21,cartimar,potato,146.25,140,160,market,4
-2026-09-28,cartimar,potato,150,140,155,market,4
+2026-09-28,cartimar,potato,148,140,155,market,5
 2023-11-06,cartimar,red_onion_local,127,100,160,market,5
 2023-11-13,cartimar,red_onion_local,134,100,155,market,5
 2023-11-20,cartimar,red_onion_local,154.5,120,200,market,5
@@ -774,7 +774,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,red_onion_local,112,110,120,market,5
 2026-09-14,cartimar,red_onion_local,118,110,120,market,5
 2026-09-21,cartimar,red_onion_local,120,120,120,market,4
-2026-09-28,cartimar,red_onion_local,110,110,110,market,4
+2026-09-28,cartimar,red_onion_local,110,110,110,market,5
 2023-11-06,cartimar,tilapia,155,120,180,market,5
 2023-11-13,cartimar,tilapia,144,130,150,market,5
 2023-11-20,cartimar,tilapia,151,140,160,market,5
@@ -910,7 +910,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,tilapia,180,180,180,market,5
 2026-09-14,cartimar,tilapia,180,180,180,market,5
 2026-09-21,cartimar,tilapia,180,180,180,market,4
-2026-09-28,cartimar,tilapia,180,180,180,market,4
+2026-09-28,cartimar,tilapia,180,180,180,market,5
 2023-11-06,cartimar,tomato,120,100,140,market,5
 2023-11-13,cartimar,tomato,91,80,110,market,5
 2023-11-20,cartimar,tomato,84.5,75,100,market,5
@@ -1062,14 +1062,14 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,cartimar,tomato,123,120,130,market,5
 2026-09-14,cartimar,tomato,129,120,140,market,5
 2026-09-21,cartimar,tomato,143.75,140,150,market,4
-2026-09-28,cartimar,tomato,138.75,125,150,market,4
+2026-09-28,cartimar,tomato,135,120,150,market,5
 2026-08-17,cartimar,white_onion_local,172.5,160,185,market,4
 2026-08-24,cartimar,white_onion_local,176.4,150,194,market,5
 2026-08-31,cartimar,white_onion_local,160,160,160,market,5
 2026-09-07,cartimar,white_onion_local,160,160,160,market,5
 2026-09-14,cartimar,white_onion_local,166.8,160,194,market,5
 2026-09-21,cartimar,white_onion_local,183.12,160,200,market,4
-2026-09-28,cartimar,white_onion_local,209.38,200,220,market,4
+2026-09-28,cartimar,white_onion_local,217.5,200,250,market,5
 2020-11-16,ncr,alumahan,253.33,240,320,prevailing,3
 2020-11-23,ncr,alumahan,248,240,320,prevailing,5
 2020-11-30,ncr,alumahan,280,260,360,prevailing,4
@@ -1366,7 +1366,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,alumahan,380,180,460,prevailing,7
 2026-09-14,ncr,alumahan,343.33,220,450,prevailing,7
 2026-09-21,ncr,alumahan,288.57,200,460,prevailing,7
-2026-09-28,ncr,alumahan,305,240,450,prevailing,4
+2026-09-28,ncr,alumahan,313.67,240,460,prevailing,7
 2020-11-02,ncr,ampalaya,120,90,160,prevailing,4
 2020-11-09,ncr,ampalaya,120,100,150,prevailing,4
 2020-11-16,ncr,ampalaya,226,150,350,prevailing,5
@@ -1674,7 +1674,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,ampalaya,188.57,90,260,prevailing,7
 2026-09-14,ncr,ampalaya,187.14,90,250,prevailing,7
 2026-09-21,ncr,ampalaya,172.86,70,250,prevailing,7
-2026-09-28,ncr,ampalaya,122.5,70,220,prevailing,4
+2026-09-28,ncr,ampalaya,119.85,60,220,prevailing,7
 2024-11-18,ncr,avocado,539.17,120,600,midpoint,6
 2024-11-25,ncr,avocado,571.67,550,600,midpoint,6
 2024-12-02,ncr,avocado,500,400,600,midpoint,5
@@ -1772,7 +1772,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,avocado,200,120,400,prevailing,7
 2026-09-14,ncr,avocado,325,120,420,prevailing,7
 2026-09-21,ncr,avocado,385.71,150,500,prevailing,7
-2026-09-28,ncr,avocado,390.62,150,600,prevailing,4
+2026-09-28,ncr,avocado,413.02,150,600,prevailing,7
 2020-11-02,ncr,baguio_beans,145,100,180,prevailing,4
 2020-11-09,ncr,baguio_beans,125,100,160,prevailing,4
 2020-11-16,ncr,baguio_beans,134,90,180,prevailing,5
@@ -2071,7 +2071,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,baguio_beans,200,120,250,prevailing,7
 2026-09-14,ncr,baguio_beans,194.29,100,260,prevailing,7
 2026-09-21,ncr,baguio_beans,182.86,80,260,prevailing,7
-2026-09-28,ncr,baguio_beans,175,110,260,prevailing,4
+2026-09-28,ncr,baguio_beans,172.23,110,260,prevailing,7
 2020-11-02,ncr,banana_lakatan,85,55,100,prevailing,4
 2020-11-09,ncr,banana_lakatan,87.5,50,100,prevailing,4
 2020-11-16,ncr,banana_lakatan,88,50,100,prevailing,5
@@ -2371,7 +2371,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,banana_lakatan,100,65,120,prevailing,7
 2026-09-14,ncr,banana_lakatan,100,50,120,prevailing,7
 2026-09-21,ncr,banana_lakatan,100,50,120,prevailing,7
-2026-09-28,ncr,banana_lakatan,100,60,120,prevailing,4
+2026-09-28,ncr,banana_lakatan,98.67,60,120,prevailing,7
 2020-11-02,ncr,banana_latundan,67.5,40,80,prevailing,4
 2020-11-09,ncr,banana_latundan,67.5,50,80,prevailing,4
 2020-11-16,ncr,banana_latundan,67,50,80,prevailing,5
@@ -2671,7 +2671,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,banana_latundan,80,45,100,prevailing,7
 2026-09-14,ncr,banana_latundan,80,30,100,prevailing,7
 2026-09-21,ncr,banana_latundan,80,40,100,prevailing,7
-2026-09-28,ncr,banana_latundan,80,45,100,prevailing,4
+2026-09-28,ncr,banana_latundan,79.27,45,100,prevailing,7
 2024-11-18,ncr,banana_saba,52.92,25,80,midpoint,6
 2024-11-25,ncr,banana_saba,54.58,30,80,midpoint,6
 2024-12-02,ncr,banana_saba,50.5,25,80,midpoint,5
@@ -2769,7 +2769,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,banana_saba,67.86,40,80,prevailing,7
 2026-09-14,ncr,banana_saba,70,40,80,prevailing,7
 2026-09-21,ncr,banana_saba,70,40,80,prevailing,7
-2026-09-28,ncr,banana_saba,70,40,80,prevailing,4
+2026-09-28,ncr,banana_saba,68.82,40,85,prevailing,7
 2020-11-02,ncr,bangus,150,110,240,prevailing,4
 2020-11-09,ncr,bangus,137.5,115,220,prevailing,4
 2020-11-16,ncr,bangus,160,120,220,prevailing,5
@@ -3069,7 +3069,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,bangus,260,160,300,prevailing,7
 2026-09-14,ncr,bangus,260,160,280,prevailing,7
 2026-09-21,ncr,bangus,258.57,160,280,prevailing,7
-2026-09-28,ncr,bangus,255,160,290,prevailing,4
+2026-09-28,ncr,bangus,253.87,160,290,prevailing,7
 2025-03-31,ncr,bangus_large,223.62,,,prevailing,2
 2025-04-07,ncr,bangus_large,218,,,prevailing,1
 2025-04-14,ncr,bangus_large,217.5,,,prevailing,1
@@ -3136,6 +3136,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,bangus_large,233.57,,,prevailing,1
 2026-06-22,ncr,bangus_large,250.12,,,prevailing,1
 2026-06-29,ncr,bangus_large,254.19,,,prevailing,1
+2026-09-28,ncr,bangus_large,275.86,,,prevailing,2
 2020-11-02,ncr,beef_brisket,300,270,380,prevailing,4
 2020-11-09,ncr,beef_brisket,300,270,380,prevailing,4
 2020-11-16,ncr,beef_brisket,300,270,420,prevailing,5
@@ -3434,7 +3435,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,beef_brisket,441.43,360,520,average,7
 2026-09-14,ncr,beef_brisket,440.79,360,520,average,7
 2026-09-21,ncr,beef_brisket,443.32,360,520,average,7
-2026-09-28,ncr,beef_brisket,443.43,380,520,average,4
+2026-09-28,ncr,beef_brisket,444.2,380,520,average,7
 2020-11-02,ncr,beef_rump,380,340,420,prevailing,4
 2020-11-09,ncr,beef_rump,380,300,420,prevailing,4
 2020-11-16,ncr,beef_rump,380,340,420,prevailing,5
@@ -3734,7 +3735,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,beef_rump,494.3,420,550,average,7
 2026-09-14,ncr,beef_rump,494.6,420,550,average,7
 2026-09-21,ncr,beef_rump,499.47,420,560,average,7
-2026-09-28,ncr,beef_rump,500.33,430,550,average,4
+2026-09-28,ncr,beef_rump,501.52,430,550,average,7
 2024-02-12,ncr,bell_pepper_green,220,140,300,midpoint,1
 2024-02-19,ncr,bell_pepper_green,223,130,300,midpoint,5
 2024-02-26,ncr,bell_pepper_green,220,130,300,midpoint,5
@@ -3872,7 +3873,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,bell_pepper_green,300,170,450,prevailing,7
 2026-09-14,ncr,bell_pepper_green,314.29,180,500,prevailing,7
 2026-09-21,ncr,bell_pepper_green,342.86,180,600,prevailing,7
-2026-09-28,ncr,bell_pepper_green,400,180,550,prevailing,4
+2026-09-28,ncr,bell_pepper_green,380.88,180,550,prevailing,7
 2024-02-12,ncr,bell_pepper_red,215,130,300,midpoint,1
 2024-02-19,ncr,bell_pepper_red,223,140,300,midpoint,5
 2024-02-26,ncr,bell_pepper_red,225,150,300,midpoint,5
@@ -4010,7 +4011,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,bell_pepper_red,228.57,130,450,prevailing,7
 2026-09-14,ncr,bell_pepper_red,250,130,450,prevailing,7
 2026-09-21,ncr,bell_pepper_red,253.57,150,360,prevailing,7
-2026-09-28,ncr,bell_pepper_red,262.5,180,360,prevailing,4
+2026-09-28,ncr,bell_pepper_red,271.98,180,360,prevailing,7
 2024-04-15,ncr,bonito,200,,,prevailing,3
 2024-04-22,ncr,bonito,186.67,120,280,midpoint,6
 2024-04-29,ncr,bonito,188.33,140,200,midpoint,6
@@ -4146,7 +4147,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,broccoli,256,260,260,prevailing,5
 2026-09-14,ncr,broccoli,291.67,200,360,prevailing,6
 2026-09-21,ncr,broccoli,235,220,250,prevailing,4
-2026-09-28,ncr,broccoli,211.25,200,260,prevailing,4
+2026-09-28,ncr,broccoli,209,200,260,prevailing,5
 2025-05-12,ncr,broccoli_imported,240,,,prevailing,1
 2025-05-19,ncr,broccoli_imported,267.5,,,prevailing,2
 2025-06-02,ncr,broccoli_imported,240,,,prevailing,1
@@ -4205,6 +4206,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,broccoli_imported,230,,,prevailing,1
 2026-06-22,ncr,broccoli_imported,238.32,,,prevailing,1
 2026-06-29,ncr,broccoli_imported,236.18,,,prevailing,1
+2026-09-28,ncr,broccoli_imported,256.1,,,prevailing,2
 2021-08-30,ncr,cabbage,200,,,prevailing,3
 2021-09-06,ncr,cabbage,120,,,prevailing,5
 2021-09-13,ncr,cabbage,120,,,prevailing,5
@@ -4471,7 +4473,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,cabbage_rareball,192.86,120,220,prevailing,7
 2026-09-14,ncr,cabbage_rareball,192.86,140,280,prevailing,7
 2026-09-21,ncr,cabbage_rareball,227.14,160,300,prevailing,7
-2026-09-28,ncr,cabbage_rareball,220,150,270,prevailing,4
+2026-09-28,ncr,cabbage_rareball,208.68,140,270,prevailing,7
 2020-11-02,ncr,cabbage_scorpio,82.5,50,120,prevailing,4
 2020-11-09,ncr,cabbage_scorpio,80,70,100,prevailing,4
 2020-11-16,ncr,cabbage_scorpio,104,70,150,prevailing,5
@@ -4658,7 +4660,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,cabbage_scorpio,165.71,120,200,prevailing,7
 2026-09-14,ncr,cabbage_scorpio,194.29,150,260,prevailing,7
 2026-09-21,ncr,cabbage_scorpio,215.71,180,280,prevailing,7
-2026-09-28,ncr,cabbage_scorpio,210,170,280,prevailing,4
+2026-09-28,ncr,cabbage_scorpio,209.77,140,280,prevailing,7
 2024-01-08,ncr,cabbage_wonderball,55,35,80,midpoint,3
 2024-01-15,ncr,cabbage_wonderball,49.8,33,70,midpoint,5
 2024-01-22,ncr,cabbage_wonderball,54.5,30,80,midpoint,5
@@ -4801,7 +4803,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,cabbage_wonderball,159.29,100,220,prevailing,7
 2026-09-14,ncr,cabbage_wonderball,188.57,140,300,prevailing,7
 2026-09-21,ncr,cabbage_wonderball,192.86,160,300,prevailing,7
-2026-09-28,ncr,cabbage_wonderball,200,120,280,prevailing,4
+2026-09-28,ncr,cabbage_wonderball,192.28,120,280,prevailing,7
 2020-11-02,ncr,calamansi,50,40,80,prevailing,4
 2020-11-09,ncr,calamansi,50,40,80,prevailing,4
 2020-11-16,ncr,calamansi,60,40,90,prevailing,5
@@ -5101,7 +5103,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,calamansi,105.71,40,180,prevailing,7
 2026-09-14,ncr,calamansi,100,40,180,prevailing,7
 2026-09-21,ncr,calamansi,100,40,180,prevailing,7
-2026-09-28,ncr,calamansi,100,50,160,prevailing,4
+2026-09-28,ncr,calamansi,99.54,50,160,prevailing,7
 2020-11-02,ncr,carrot,82.5,60,120,prevailing,4
 2020-11-09,ncr,carrot,80,50,100,prevailing,4
 2020-11-16,ncr,carrot,100,10,150,prevailing,5
@@ -5401,7 +5403,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,carrot,120,70,160,prevailing,7
 2026-09-14,ncr,carrot,120,60,180,prevailing,7
 2026-09-21,ncr,carrot,120,60,200,prevailing,7
-2026-09-28,ncr,carrot,120,50,160,prevailing,4
+2026-09-28,ncr,carrot,120.6,50,200,prevailing,7
 2025-10-13,ncr,carrot_imported,160,,,prevailing,1
 2025-10-20,ncr,carrot_imported,107.5,,,prevailing,1
 2025-10-27,ncr,carrot_imported,123.33,,,prevailing,1
@@ -5431,6 +5433,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,carrot_imported,114,,,prevailing,1
 2026-06-22,ncr,carrot_imported,108.95,,,prevailing,1
 2026-06-29,ncr,carrot_imported,106.94,,,prevailing,1
+2026-09-28,ncr,carrot_imported,113.32,,,prevailing,2
 2024-11-18,ncr,cauliflower,287.5,200,400,midpoint,6
 2024-11-25,ncr,cauliflower,276.67,220,350,midpoint,6
 2024-12-02,ncr,cauliflower,299,200,400,midpoint,5
@@ -5528,7 +5531,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,cauliflower,297.14,180,360,prevailing,7
 2026-09-14,ncr,cauliflower,300,170,380,prevailing,7
 2026-09-21,ncr,cauliflower,300,200,400,prevailing,7
-2026-09-28,ncr,cauliflower,300,200,420,prevailing,4
+2026-09-28,ncr,cauliflower,300,200,420,prevailing,5
 2024-11-18,ncr,celery,199.17,90,300,midpoint,6
 2024-11-25,ncr,celery,205,100,320,midpoint,6
 2024-12-02,ncr,celery,200,120,290,midpoint,5
@@ -5626,7 +5629,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,celery,335.71,180,600,prevailing,7
 2026-09-14,ncr,celery,389.29,250,600,prevailing,7
 2026-09-21,ncr,celery,421.43,200,600,prevailing,7
-2026-09-28,ncr,celery,400,180,600,prevailing,4
+2026-09-28,ncr,celery,390.64,180,600,prevailing,7
 2020-11-02,ncr,chayote,40,25,60,prevailing,4
 2020-11-09,ncr,chayote,40,30,60,prevailing,4
 2020-11-16,ncr,chayote,46,30,70,prevailing,5
@@ -5926,7 +5929,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,chayote,120,30,160,prevailing,7
 2026-09-14,ncr,chayote,120,80,160,prevailing,7
 2026-09-21,ncr,chayote,120,60,160,prevailing,7
-2026-09-28,ncr,chayote,120,60,170,prevailing,4
+2026-09-28,ncr,chayote,117.09,60,170,prevailing,7
 2025-09-22,ncr,chili_green,119.55,,,prevailing,2
 2025-09-29,ncr,chili_green,141.07,,,prevailing,3
 2025-10-06,ncr,chili_green,140,,,prevailing,1
@@ -5980,7 +5983,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,chili_green,200,100,260,prevailing,7
 2026-09-14,ncr,chili_green,207.14,120,300,prevailing,7
 2026-09-21,ncr,chili_green,235.71,90,300,prevailing,7
-2026-09-28,ncr,chili_green,200,80,300,prevailing,4
+2026-09-28,ncr,chili_green,201.55,80,300,prevailing,7
 2020-11-02,ncr,chili_labuyo,187.5,150,400,prevailing,4
 2020-11-09,ncr,chili_labuyo,200,180,300,prevailing,4
 2020-11-16,ncr,chili_labuyo,280,200,350,prevailing,5
@@ -6279,7 +6282,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,chili_labuyo,200,100,350,prevailing,7
 2026-09-14,ncr,chili_labuyo,200,80,300,prevailing,7
 2026-09-21,ncr,chili_labuyo,210.71,80,350,prevailing,7
-2026-09-28,ncr,chili_labuyo,250,120,300,prevailing,4
+2026-09-28,ncr,chili_labuyo,240,120,300,prevailing,5
 2025-03-31,ncr,chili_red,136.21,,,prevailing,1
 2025-04-28,ncr,chili_red,121.75,,,prevailing,1
 2025-09-22,ncr,chili_red,355.96,,,prevailing,2
@@ -6323,6 +6326,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,chili_red,191.88,,,prevailing,1
 2026-06-22,ncr,chili_red,202.48,,,prevailing,1
 2026-06-29,ncr,chili_red,194.64,,,prevailing,1
+2026-09-28,ncr,chili_red,225.69,,,prevailing,2
 2020-11-02,ncr,eggplant,110,80,150,prevailing,4
 2020-11-09,ncr,eggplant,105,80,150,prevailing,4
 2020-11-16,ncr,eggplant,166,100,200,prevailing,5
@@ -6622,7 +6626,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,eggplant,158.57,80,250,prevailing,7
 2026-09-14,ncr,eggplant,128.57,80,180,prevailing,7
 2026-09-21,ncr,eggplant,120,70,180,prevailing,7
-2026-09-28,ncr,eggplant,120,55,200,prevailing,4
+2026-09-28,ncr,eggplant,115.91,40,200,prevailing,7
 2020-11-02,ncr,galunggong_imported,243.33,220,260,prevailing,3
 2020-11-16,ncr,galunggong_imported,240,180,280,prevailing,5
 2020-11-23,ncr,galunggong_imported,252,220,320,prevailing,5
@@ -7139,7 +7143,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,galunggong_local,310,180,420,prevailing,7
 2026-09-14,ncr,galunggong_local,302.86,140,380,prevailing,7
 2026-09-21,ncr,galunggong_local,300,180,380,prevailing,7
-2026-09-28,ncr,galunggong_local,300,180,390,prevailing,4
+2026-09-28,ncr,galunggong_local,297.94,180,390,prevailing,7
 2020-11-02,ncr,garlic_imported,92.5,80,120,prevailing,4
 2020-11-09,ncr,garlic_imported,92.5,80,140,prevailing,4
 2020-11-16,ncr,garlic_imported,100,80,140,prevailing,5
@@ -7439,7 +7443,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,garlic_imported,150,110,190,prevailing,7
 2026-09-14,ncr,garlic_imported,150,110,190,prevailing,7
 2026-09-21,ncr,garlic_imported,150,110,190,prevailing,7
-2026-09-28,ncr,garlic_imported,150,110,190,prevailing,4
+2026-09-28,ncr,garlic_imported,150.4,110,190,prevailing,7
 2021-03-08,ncr,garlic_local,200,100,300,prevailing,2
 2021-03-22,ncr,garlic_local,300,300,350,prevailing,3
 2021-04-12,ncr,garlic_local,300,300,350,prevailing,2
@@ -7681,7 +7685,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,garlic_local,350,250,400,prevailing,7
 2026-09-14,ncr,garlic_local,350,250,400,prevailing,7
 2026-09-21,ncr,garlic_local,350,250,450,prevailing,7
-2026-09-28,ncr,garlic_local,350,250,380,prevailing,4
+2026-09-28,ncr,garlic_local,360.29,250,450,prevailing,7
 2020-11-02,ncr,ginger,185,160,300,prevailing,4
 2020-11-09,ncr,ginger,197.5,150,300,prevailing,4
 2020-11-16,ncr,ginger,186,150,300,prevailing,5
@@ -7981,7 +7985,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,ginger,200,120,240,prevailing,7
 2026-09-14,ncr,ginger,200,120,240,prevailing,7
 2026-09-21,ncr,ginger,200,120,240,prevailing,7
-2026-09-28,ncr,ginger,200,120,230,prevailing,4
+2026-09-28,ncr,ginger,200,120,230,prevailing,5
 2025-09-22,ncr,ginger_imported,158.7,,,prevailing,2
 2025-09-29,ncr,ginger_imported,149.52,,,prevailing,3
 2025-10-06,ncr,ginger_imported,150,,,prevailing,1
@@ -8112,7 +8116,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,lettuce_green_ice,646.43,380,800,prevailing,7
 2026-09-14,ncr,lettuce_green_ice,642.86,450,850,prevailing,7
 2026-09-21,ncr,lettuce_green_ice,557.14,150,850,prevailing,7
-2026-09-28,ncr,lettuce_green_ice,375,140,600,prevailing,4
+2026-09-28,ncr,lettuce_green_ice,350.16,100,600,prevailing,7
 2024-11-18,ncr,lettuce_iceberg,315.83,150,450,midpoint,6
 2024-11-25,ncr,lettuce_iceberg,320.83,200,400,midpoint,6
 2024-12-02,ncr,lettuce_iceberg,283,150,400,midpoint,5
@@ -8210,7 +8214,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,lettuce_iceberg,528.57,320,800,prevailing,7
 2026-09-14,ncr,lettuce_iceberg,644.29,350,900,prevailing,7
 2026-09-21,ncr,lettuce_iceberg,550,320,850,prevailing,7
-2026-09-28,ncr,lettuce_iceberg,393.75,220,700,prevailing,4
+2026-09-28,ncr,lettuce_iceberg,395,220,700,prevailing,5
 2024-11-18,ncr,lettuce_romaine,312.5,180,450,midpoint,6
 2024-11-25,ncr,lettuce_romaine,297.5,150,450,midpoint,6
 2024-12-02,ncr,lettuce_romaine,271,130,400,midpoint,5
@@ -8308,7 +8312,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,lettuce_romaine,678.57,400,800,prevailing,7
 2026-09-14,ncr,lettuce_romaine,700,420,900,prevailing,7
 2026-09-21,ncr,lettuce_romaine,578.57,150,850,prevailing,7
-2026-09-28,ncr,lettuce_romaine,350,120,600,prevailing,4
+2026-09-28,ncr,lettuce_romaine,335.34,80,600,prevailing,7
 2020-11-02,ncr,mango_carabao,165,130,190,prevailing,4
 2020-11-09,ncr,mango_carabao,150,120,200,prevailing,4
 2020-11-16,ncr,mango_carabao,156,110,200,prevailing,5
@@ -8608,7 +8612,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,mango_carabao,242.62,120,340,prevailing,7
 2026-09-14,ncr,mango_carabao,228.57,120,350,prevailing,7
 2026-09-21,ncr,mango_carabao,221.43,20,350,prevailing,7
-2026-09-28,ncr,mango_carabao,250,140,350,prevailing,4
+2026-09-28,ncr,mango_carabao,250.41,140,350,prevailing,7
 2024-11-18,ncr,melon,106.67,60,150,midpoint,6
 2024-11-25,ncr,melon,106.67,60,150,midpoint,6
 2024-12-02,ncr,melon,103.5,60,150,midpoint,5
@@ -8706,7 +8710,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,melon,102.86,70,160,prevailing,7
 2026-09-14,ncr,melon,115.71,80,160,prevailing,7
 2026-09-21,ncr,melon,118.57,50,160,prevailing,7
-2026-09-28,ncr,melon,102.5,60,160,prevailing,4
+2026-09-28,ncr,melon,102.57,60,160,prevailing,7
 2025-12-08,ncr,mung_bean,132.25,100,170,average,4
 2025-12-15,ncr,mung_bean,130.08,100,170,average,7
 2025-12-22,ncr,mung_bean,130.54,100,170,average,7
@@ -8749,7 +8753,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,mung_bean,148.97,110,190,average,7
 2026-09-14,ncr,mung_bean,149.09,110,190,average,7
 2026-09-21,ncr,mung_bean,149.7,100,190,average,7
-2026-09-28,ncr,mung_bean,149.92,110,190,average,4
+2026-09-28,ncr,mung_bean,150.15,80,190,average,7
 2025-09-22,ncr,pampano_imported,402.34,,,prevailing,2
 2025-09-29,ncr,pampano_imported,405.95,,,prevailing,3
 2025-10-06,ncr,pampano_imported,416.43,,,prevailing,1
@@ -8791,6 +8795,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,pampano_imported,405.83,,,prevailing,1
 2026-06-22,ncr,pampano_imported,414.02,,,prevailing,1
 2026-06-29,ncr,pampano_imported,417.93,,,prevailing,1
+2026-09-28,ncr,pampano_imported,469.6,,,prevailing,2
 2025-09-22,ncr,pampano_local,420,,,prevailing,2
 2025-09-29,ncr,pampano_local,430,,,prevailing,2
 2025-10-13,ncr,pampano_local,393.33,,,prevailing,1
@@ -8824,6 +8829,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,pampano_local,430,,,prevailing,1
 2026-06-22,ncr,pampano_local,450,,,prevailing,1
 2026-06-29,ncr,pampano_local,450,,,prevailing,1
+2026-09-28,ncr,pampano_local,478.75,,,prevailing,2
 2020-11-02,ncr,papaya,60,20,70,prevailing,4
 2020-11-09,ncr,papaya,57.5,25,70,prevailing,4
 2020-11-16,ncr,papaya,58,25,70,prevailing,5
@@ -9123,7 +9129,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,papaya,80,50,100,prevailing,7
 2026-09-14,ncr,papaya,77.86,50,100,prevailing,7
 2026-09-21,ncr,papaya,77.14,50,100,prevailing,7
-2026-09-28,ncr,papaya,80,50,100,prevailing,4
+2026-09-28,ncr,papaya,79.07,50,100,prevailing,7
 2020-11-02,ncr,pechay_baguio,72.5,60,100,prevailing,4
 2020-11-09,ncr,pechay_baguio,77.5,60,100,prevailing,4
 2020-11-16,ncr,pechay_baguio,106,70,150,prevailing,5
@@ -9432,7 +9438,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,pechay_baguio,235.71,120,320,prevailing,7
 2026-09-14,ncr,pechay_baguio,250,140,290,prevailing,7
 2026-09-21,ncr,pechay_baguio,250,90,300,prevailing,7
-2026-09-28,ncr,pechay_baguio,200,120,300,prevailing,4
+2026-09-28,ncr,pechay_baguio,197.51,110,300,prevailing,7
 2020-11-02,ncr,pechay_native,152.5,100,200,prevailing,4
 2020-11-09,ncr,pechay_native,151.25,120,200,prevailing,4
 2020-11-16,ncr,pechay_native,180,110,200,prevailing,5
@@ -9732,7 +9738,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,pechay_native,167.86,100,250,prevailing,7
 2026-09-14,ncr,pechay_native,172.86,100,250,prevailing,7
 2026-09-21,ncr,pechay_native,188.57,70,270,prevailing,7
-2026-09-28,ncr,pechay_native,152.5,100,220,prevailing,4
+2026-09-28,ncr,pechay_native,152.42,90,220,prevailing,7
 2024-11-18,ncr,pomelo,171.67,100,250,midpoint,6
 2024-11-25,ncr,pomelo,168.33,80,250,midpoint,6
 2024-12-02,ncr,pomelo,164,80,250,midpoint,5
@@ -9830,7 +9836,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,pomelo,174.29,120,250,prevailing,7
 2026-09-14,ncr,pomelo,176.43,110,260,prevailing,7
 2026-09-21,ncr,pomelo,181.43,100,250,prevailing,7
-2026-09-28,ncr,pomelo,180,100,260,prevailing,4
+2026-09-28,ncr,pomelo,181.62,100,260,prevailing,7
 2020-11-02,ncr,pork_kasim,300,265,320,prevailing,4
 2020-11-09,ncr,pork_kasim,297.5,270,320,prevailing,4
 2020-11-16,ncr,pork_kasim,300,270,330,prevailing,5
@@ -10130,7 +10136,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,pork_kasim,323.48,200,380,average,7
 2026-09-14,ncr,pork_kasim,322.17,240,390,average,7
 2026-09-21,ncr,pork_kasim,320.03,30,380,average,7
-2026-09-28,ncr,pork_kasim,316.91,235,380,average,4
+2026-09-28,ncr,pork_kasim,316.86,235,380,average,5
 2020-11-02,ncr,pork_liempo,320,280,370,prevailing,4
 2020-11-09,ncr,pork_liempo,320,280,350,prevailing,4
 2020-11-16,ncr,pork_liempo,320,280,400,prevailing,5
@@ -10427,7 +10433,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,pork_liempo,377.73,290,430,average,7
 2026-09-14,ncr,pork_liempo,376.59,290,430,average,7
 2026-09-21,ncr,pork_liempo,374.6,270,430,average,7
-2026-09-28,ncr,pork_liempo,372.39,265,450,average,4
+2026-09-28,ncr,pork_liempo,372.35,265,450,average,5
 2020-11-02,ncr,potato,77.5,60,100,prevailing,4
 2020-11-09,ncr,potato,75,50,100,prevailing,4
 2020-11-16,ncr,potato,80,60,120,prevailing,5
@@ -10727,7 +10733,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,potato,162.86,100,220,prevailing,7
 2026-09-14,ncr,potato,140,90,180,prevailing,7
 2026-09-21,ncr,potato,140,100,180,prevailing,7
-2026-09-28,ncr,potato,140,90,180,prevailing,4
+2026-09-28,ncr,potato,142.26,90,180,prevailing,7
 2020-11-02,ncr,red_onion_imported,117.5,100,160,prevailing,4
 2020-11-09,ncr,red_onion_imported,120,100,240,prevailing,4
 2020-11-16,ncr,red_onion_imported,168,100,300,prevailing,5
@@ -11194,7 +11200,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,red_onion_local,120,70,180,prevailing,7
 2026-09-14,ncr,red_onion_local,120,70,200,prevailing,7
 2026-09-21,ncr,red_onion_local,120,80,200,prevailing,7
-2026-09-28,ncr,red_onion_local,120,80,200,prevailing,4
+2026-09-28,ncr,red_onion_local,120.7,80,200,prevailing,7
 2025-04-28,ncr,salmon_belly_imported,440,,,prevailing,1
 2025-05-05,ncr,salmon_belly_imported,400,,,prevailing,1
 2025-05-12,ncr,salmon_belly_imported,300,,,prevailing,1
@@ -11257,6 +11263,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,salmon_belly_imported,400,,,prevailing,1
 2026-06-22,ncr,salmon_belly_imported,406.47,,,prevailing,1
 2026-06-29,ncr,salmon_belly_imported,394.03,,,prevailing,1
+2026-09-28,ncr,salmon_belly_imported,438.4,,,prevailing,2
 2024-04-15,ncr,salmon_head,195,140,250,midpoint,5
 2024-04-22,ncr,salmon_head,194.17,140,250,midpoint,6
 2024-04-29,ncr,salmon_head,194.17,140,250,midpoint,6
@@ -11373,6 +11380,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,salmon_head,205.45,,,prevailing,1
 2026-06-22,ncr,salmon_head,217.82,,,prevailing,1
 2026-06-29,ncr,salmon_head,218.13,,,prevailing,1
+2026-09-28,ncr,salmon_head,233.62,,,prevailing,2
 2024-04-15,ncr,sardines,166,60,260,midpoint,5
 2024-04-22,ncr,sardines,148.33,80,200,midpoint,6
 2024-04-29,ncr,sardines,149.17,70,240,midpoint,6
@@ -11501,7 +11509,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,sardines,142.86,70,300,prevailing,7
 2026-09-14,ncr,sardines,180.95,70,300,prevailing,7
 2026-09-21,ncr,sardines,173.33,70,300,prevailing,7
-2026-09-28,ncr,sardines,110,80,320,prevailing,4
+2026-09-28,ncr,sardines,145.65,80,320,prevailing,7
 2020-11-02,ncr,sitao,100,70,170,prevailing,4
 2020-11-09,ncr,sitao,100,60,160,prevailing,4
 2020-11-16,ncr,sitao,162,90,200,prevailing,5
@@ -11801,7 +11809,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,sitao,174.29,100,250,prevailing,7
 2026-09-14,ncr,sitao,159.29,50,230,prevailing,7
 2026-09-21,ncr,sitao,160,50,230,prevailing,7
-2026-09-28,ncr,sitao,172.5,80,250,prevailing,4
+2026-09-28,ncr,sitao,162.22,70,250,prevailing,7
 2020-11-02,ncr,squash,33.75,25,50,prevailing,4
 2020-11-09,ncr,squash,40,25,55,prevailing,4
 2020-11-16,ncr,squash,40,25,65,prevailing,5
@@ -12101,7 +12109,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,squash,70,25,80,prevailing,7
 2026-09-14,ncr,squash,61.43,25,80,prevailing,7
 2026-09-21,ncr,squash,60,20,100,prevailing,7
-2026-09-28,ncr,squash,60,20,100,prevailing,4
+2026-09-28,ncr,squash,60.69,20,100,prevailing,7
 2024-04-15,ncr,squid,345,200,460,midpoint,5
 2024-04-22,ncr,squid,350.83,250,440,midpoint,6
 2024-04-29,ncr,squid,341.67,200,440,midpoint,6
@@ -12230,7 +12238,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,squid,500,360,560,prevailing,7
 2026-09-14,ncr,squid,498.57,300,560,prevailing,7
 2026-09-21,ncr,squid,500,360,560,prevailing,7
-2026-09-28,ncr,squid,500,360,600,prevailing,4
+2026-09-28,ncr,squid,498.71,360,600,prevailing,7
 2025-05-12,ncr,squid_imported,380,,,prevailing,1
 2025-07-14,ncr,squid_imported,420,,,prevailing,1
 2025-08-25,ncr,squid_imported,440,,,prevailing,1
@@ -12277,6 +12285,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-06-15,ncr,squid_imported,233.33,,,prevailing,1
 2026-06-22,ncr,squid_imported,240,,,prevailing,1
 2026-06-29,ncr,squid_imported,245.91,,,prevailing,1
+2026-09-28,ncr,squid_imported,232.12,,,prevailing,2
 2024-04-15,ncr,tambakol,232,140,400,midpoint,5
 2024-04-22,ncr,tambakol,215.83,140,300,midpoint,6
 2024-04-29,ncr,tambakol,213.33,100,300,midpoint,6
@@ -12645,7 +12654,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,tilapia,160,120,200,prevailing,7
 2026-09-14,ncr,tilapia,160,120,200,prevailing,7
 2026-09-21,ncr,tilapia,158.57,120,200,prevailing,7
-2026-09-28,ncr,tilapia,156.25,120,200,prevailing,4
+2026-09-28,ncr,tilapia,157.25,120,200,prevailing,7
 2020-11-02,ncr,tomato,140,120,200,prevailing,4
 2020-11-09,ncr,tomato,140,100,200,prevailing,4
 2020-11-16,ncr,tomato,180,140,200,prevailing,5
@@ -12954,7 +12963,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,tomato,120,50,160,prevailing,7
 2026-09-14,ncr,tomato,128.57,70,160,prevailing,7
 2026-09-21,ncr,tomato,125.71,70,170,prevailing,7
-2026-09-28,ncr,tomato,120,10,180,prevailing,4
+2026-09-28,ncr,tomato,119.73,10,180,prevailing,7
 2024-12-02,ncr,watermelon,75,60,90,midpoint,1
 2024-12-09,ncr,watermelon,75,60,90,midpoint,5
 2024-12-16,ncr,watermelon,75,60,90,midpoint,5
@@ -13050,7 +13059,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,watermelon,72.14,60,100,prevailing,7
 2026-09-14,ncr,watermelon,71.43,60,90,prevailing,7
 2026-09-21,ncr,watermelon,71.43,60,100,prevailing,7
-2026-09-28,ncr,watermelon,80,60,100,prevailing,4
+2026-09-28,ncr,watermelon,77.9,60,100,prevailing,7
 2020-11-02,ncr,white_onion_imported,95,70,150,prevailing,4
 2020-11-09,ncr,white_onion_imported,100,70,140,prevailing,4
 2020-11-16,ncr,white_onion_imported,100,70,150,prevailing,5
@@ -13539,7 +13548,7 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,white_onion_local,132.14,80,200,prevailing,7
 2026-09-14,ncr,white_onion_local,120,80,200,prevailing,7
 2026-09-21,ncr,white_onion_local,120,85,220,prevailing,7
-2026-09-28,ncr,white_onion_local,130,90,220,prevailing,4
+2026-09-28,ncr,white_onion_local,139.57,90,220,prevailing,7
 2021-08-30,ncr,whole_chicken,146.67,,,prevailing,3
 2021-09-06,ncr,whole_chicken,150,,,prevailing,5
 2021-09-13,ncr,whole_chicken,150,,,prevailing,5
@@ -13805,4 +13814,4 @@ week_start,series,commodity_id,price,low,high,basis,n_days
 2026-09-07,ncr,whole_chicken,200.77,140,250,average,7
 2026-09-14,ncr,whole_chicken,198.82,135,240,average,7
 2026-09-21,ncr,whole_chicken,198.15,140,240,average,7
-2026-09-28,ncr,whole_chicken,195.53,135,240,average,4
+2026-09-28,ncr,whole_chicken,196.16,135,240,average,5

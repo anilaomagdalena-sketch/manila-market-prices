@@ -68254,3 +68254,158 @@ date,commodity_id,spec,unit,low,high,prevailing,average,source_url
 2026-10-01,watermelon,,,60,100,80,77.97,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-1-2026.pdf
 2026-10-01,white_onion_local,,,90,200,140,150.11,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-1-2026.pdf
 2026-10-01,whole_chicken,,,135,230,,194.9,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-1-2026.pdf
+2026-10-02,alumahan,,,240,460,300,331.63,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,ampalaya,,,60,200,100,122.47,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,avocado,,,180,600,550,375.2,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,baguio_beans,,,110,250,170,169.47,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,banana_lakatan,,,60,120,100,96.48,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,banana_latundan,,,45,100,80,78.28,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,banana_saba,,,45,85,70,66.45,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,bangus,,,160,280,260,244.44,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,beef_brisket,,,380,520,,444.58,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,beef_rump,,,430,550,,501.39,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,bell_pepper_green,,,200,550,300,362.88,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,bell_pepper_red,,,180,350,275,285.79,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,broccoli,,,200,200,200,200,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,cabbage_rareball,,,140,260,200,198.38,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,cabbage_scorpio,,,140,250,250,202.94,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,cabbage_wonderball,,,120,260,180,177.89,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,calamansi,,,50,160,100,96.86,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,carrot,,,70,200,120,118.91,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,cauliflower,,,220,420,300,318.98,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,celery,,,200,600,400,370.83,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,chayote,,,60,150,120,111.76,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,chili_green,,,120,300,200,206.2,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,chili_labuyo,,,150,300,200,222.78,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,eggplant,,,40,160,120,106.57,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,galunggong_local,,,200,380,300,291.52,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,garlic_imported,,,110,190,150,150.21,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,garlic_local,,,350,450,350,375.71,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,ginger,,,120,230,200,189.12,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,lettuce_green_ice,,,100,500,300,285.68,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,lettuce_iceberg,,,300,620,400,422.06,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,lettuce_romaine,,,80,600,300,283.26,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,mango_carabao,,,140,350,250,250.95,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,melon,,,80,150,100,105.79,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,mung_bean,,,80,190,,149.69,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,papaya,,,50,100,80,78.75,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,pechay_baguio,,,110,280,200,194.4,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,pechay_native,,,90,200,150,154.52,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,pomelo,,,120,260,180,187.75,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,pork_kasim,,,235,380,,316.62,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,pork_liempo,,,265,450,,372.16,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,potato,,,100,180,140,146.96,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,red_onion_local,,,80,190,120,120.93,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,sardines,,,100,260,160,180,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,sitao,,,70,200,150,146.29,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,squash,,,20,100,60,60.86,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,squid,,,360,600,500,499.57,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,tilapia,,,120,200,160,159.02,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,tomato,,,70,180,120,118.74,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,watermelon,,,60,100,70,78.4,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,white_onion_local,,,90,200,160,152.11,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-02,whole_chicken,,,150,230,,198.65,https://www.da.gov.ph/wp-content/uploads/2026/10/Price-Monitoring-October-2-2026.pdf
+2026-10-03,alumahan,Medium (4-6 pcs/kg),,,,336.31,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,ampalaya,4-5 pcs/kg,,,,124.94,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,avocado,,,,,390,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,baguio_beans,,,,,169.23,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,banana_lakatan,8-10 pcs/kg,,,,95.33,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,banana_latundan,10-12 pcs/kg,,,,77.47,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,banana_saba,,,,,66.04,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,bangus,Medium (3-4 pcs/kg),,,,248.6,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,bangus_large,Large (1-2 pcs),,,,275.77,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,beef_brisket,Meat with Bones,,,,445.54,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,beef_rump,Lean Meat/ Tapadera,,,,503.78,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,bell_pepper_green,Medium (151-250gm/pc),,,,382.94,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,bell_pepper_red,Medium (151-250gm/pc),,,,290.81,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,broccoli_imported,,,,,256.07,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,cabbage_rareball,510 gm - 1 kg/head,,,,188.45,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,cabbage_scorpio,750 gm - 1 kg/head,,,,191.05,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,cabbage_wonderball,510 gm - 1 kg/head,,,,181.55,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,calamansi,,,,,98.82,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,carrot,8-10 pcs/kg,,,,121.89,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,carrot_imported,,,,,112.72,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,celery,Medium (501-800 g),,,,372.16,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,chayote,Medium (301-400 g),,,,110.63,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,chili_green,Haba/Panigang,,,,206.8,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,chili_red,Tingala,,,,225.28,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,eggplant,3-4 Small Bundles,,,,106.96,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,galunggong_local,"Male, Medium (12-14 pcs/kg)",,,,294.65,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,garlic_imported,,,,,151.35,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,garlic_local,,,,,386,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,lettuce_green_ice,,,,,331.35,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,lettuce_romaine,,,,,332.29,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,mango_carabao,"Ripe, 3-4 pcs/kg",,,,250.33,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,melon,,,,,104.05,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,mung_bean,,,,,151.08,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,pampano_imported,,,,,468.43,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,pampano_local,,,,,490,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,papaya,"Solo, Ripe, 2-3 pcs/kg",,,,76.86,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,pechay_baguio,,,,,192.37,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,pechay_native,3-4 Small Bundles,,,,154.83,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,pomelo,,,,,185.74,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,potato,10-12 pcs/kg,,,,148.18,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,red_onion_local,13-15 pcs/kg,,,,122.49,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,salmon_belly_imported,,,,,438.67,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,salmon_head,,,,,228.27,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,sardines,,,,,211.76,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,sitao,3-4 Small Bundles,,,,147.45,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,squash,Suprema Variety,,,,62.42,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,squid,Medium,,,,494.86,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,squid_imported,,,,,232.35,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,tilapia,Medium (5-6 pcs/kg),,,,157.55,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,tomato,15-18 pcs/kg,,,,119.75,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,watermelon,,,,,77.67,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-03,white_onion_local,,,,,147.66,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-3-2026.pdf
+2026-10-04,alumahan,Medium (4-6 pcs/kg),,,,339.37,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,ampalaya,4-5 pcs/kg,,,,124.02,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,avocado,,,,,388.64,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,baguio_beans,,,,,166.36,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,banana_lakatan,8-10 pcs/kg,,,,95.38,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,banana_latundan,10-12 pcs/kg,,,,77.39,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,banana_saba,,,,,65.73,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,bangus,Medium (3-4 pcs/kg),,,,248.51,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,bangus_large,Large (1-2 pcs),,,,275.94,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,beef_brisket,Meat with Bones,,,,445.54,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,beef_rump,Lean Meat/ Tapadera,,,,504.16,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,bell_pepper_green,Medium (151-250gm/pc),,,,383.23,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,bell_pepper_red,Medium (151-250gm/pc),,,,288.02,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,broccoli_imported,,,,,256.13,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,cabbage_rareball,510 gm - 1 kg/head,,,,192.32,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,cabbage_scorpio,750 gm - 1 kg/head,,,,187.37,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,cabbage_wonderball,510 gm - 1 kg/head,,,,184.4,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,calamansi,,,,,97.99,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,carrot,8-10 pcs/kg,,,,122.28,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,carrot_imported,,,,,113.92,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,celery,Medium (501-800 g),,,,362.33,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,chayote,Medium (301-400 g),,,,108.98,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,chili_green,Haba/Panigang,,,,204.05,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,chili_red,Tingala,,,,226.1,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,eggplant,3-4 Small Bundles,,,,104.43,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,galunggong_local,"Male, Medium (12-14 pcs/kg)",,,,290.9,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,garlic_imported,,,,,151.42,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,garlic_local,,,,,386,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,lettuce_green_ice,,,,,319.74,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,lettuce_romaine,,,,,315.11,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,mango_carabao,"Ripe, 3-4 pcs/kg",,,,252.53,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,melon,,,,,103.97,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,mung_bean,,,,,150.59,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,pampano_imported,,,,,470.77,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,pampano_local,,,,,467.5,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,papaya,"Solo, Ripe, 2-3 pcs/kg",,,,76.6,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,pechay_baguio,,,,,190.2,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,pechay_native,3-4 Small Bundles,,,,152.08,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,pomelo,,,,,185.59,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,potato,10-12 pcs/kg,,,,147.66,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,red_onion_local,13-15 pcs/kg,,,,122.38,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,salmon_belly_imported,,,,,438.14,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,salmon_head,,,,,238.97,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,sardines,,,,,207.78,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,sitao,3-4 Small Bundles,,,,148.11,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,squash,Suprema Variety,,,,62.44,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,squid,Medium,,,,496.14,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,squid_imported,,,,,231.88,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,tilapia,Medium (5-6 pcs/kg),,,,158.21,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,tomato,15-18 pcs/kg,,,,118.33,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,watermelon,,,,,77.64,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
+2026-10-04,white_onion_local,,,,,149.34,,https://www.da.gov.ph/wp-content/uploads/2026/10/Daily-Price-Index-October-4-2026.pdf
